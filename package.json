@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/ts-mocha ./tests/**/*.test.ts",
-    "lint": "./node_modules/.bin/tslint ./src/**/*.ts"
+    "lint": "./node_modules/.bin/tslint ./src/**/*.ts",
+    "prepublish": "npm run lint && npm test"
   },
   "husky": {
     "hooks": {
