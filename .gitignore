@@ -3,4 +3,6 @@
 
 # App
 node_modules
+lib
+.cache
 .env
