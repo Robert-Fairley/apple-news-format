@@ -1,5 +1,5 @@
-import { ComponentLayoutBase } from "./component-layout-base";
 import { Condition } from "../primitives";
+import { ComponentLayoutBase } from "./component-layout-base";
 
 /**
  * Signature/interface for a `ConditionalComponentLayout` object
@@ -9,4 +9,3 @@ import { Condition } from "../primitives";
 export interface ConditionalComponentLayout extends ComponentLayoutBase {
     conditions: Condition[];
 }
-

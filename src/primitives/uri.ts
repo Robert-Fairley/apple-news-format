@@ -4,11 +4,11 @@
  */
 export type URI = string;
 /**
- * Lambda for valdiating string as ANF `URI` type. Returns undefined if validation fails.
- * @param {URI} s 
+ * Lambda for validating string as ANF `URI` type. Returns undefined if validation fails.
+ * @param {URI} s
  * @returns {URI|undefined} Validated URI string or undefined if invalid
  */
 export const URI = (s: string): URI | undefined =>
-    String(s).match(/^(https|http|bundle).+\.(png|jpg|jpeg|gif|m3u8|mov)$/)
+    String(s).match(/^(https|http|bundle):\/\/.+\.(png|jpg|jpeg|gif|m3u8|mov|aac|mp3|mp4|ac3)$/)
         ? s
         : void 0;

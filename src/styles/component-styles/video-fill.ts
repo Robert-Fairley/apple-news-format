@@ -1,10 +1,10 @@
-import { Fill } from "./fill";
-import { ImageFillMode } from "./image-fill";
 import {
     HorizontalAlignment,
     URI,
     VerticalAlignment,
-} from "../primitives";
+} from "../../primitives";
+import { Fill } from "./fill";
+import { ImageFillMode } from "./image-fill";
 
 /**
  * Signature/intervace for a `VideoFill` object

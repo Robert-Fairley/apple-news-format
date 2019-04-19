@@ -1,4 +1,4 @@
-import { Condition } from "../primitives";
+import { Condition } from "../../primitives";
 import { ComponentTextStyleBase } from "./component-text-style-base";
 
 /**

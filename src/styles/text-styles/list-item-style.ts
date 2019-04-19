@@ -19,11 +19,11 @@ export type ListItemStyleCharacter = string;
 
 /**
  * Lambda for verifying `ListItemStyleCharacter` type at runtime.
- * @param {ListItemStyleCharacter} s 
+ * @param {ListItemStyleCharacter} s
  * @returns {ListItemStyleCharacter} Validated field value or undefined
  */
 export const ListItemStyleCharacter = (s: ListItemStyleCharacter): ListItemStyleCharacter | undefined =>
-    String(s).match(/^\w$/)
+    (String(s).match(/^.|\s$/)[0] === s)
         ? s
         : void 0;
 

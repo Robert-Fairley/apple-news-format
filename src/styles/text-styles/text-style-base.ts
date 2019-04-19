@@ -1,13 +1,13 @@
 import {
     Color,
-    Shadow,
     FontStyle,
     FontWeight,
     FontWidth,
+    Shadow,
     TextDecoration,
     TextTransform,
     TextVerticalAlignment,
-} from "../primitives";
+} from "../../primitives";
 import { ListItemStyle } from "./list-item-style";
 import { TextStrokeStyle } from "./text-stroke-style";
 

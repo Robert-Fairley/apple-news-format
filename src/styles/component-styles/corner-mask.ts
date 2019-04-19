@@ -1,4 +1,4 @@
-import { SupportedUnits } from "../primitives";
+import { SupportedUnits } from "../../primitives";
 
 /**
  * Possible values for `CornerMask` type field

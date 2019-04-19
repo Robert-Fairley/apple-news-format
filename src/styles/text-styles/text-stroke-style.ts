@@ -1,4 +1,4 @@
-import { Color } from "../primitives/color";
+import { Color } from "../../primitives";
 
 /**
  * Signature/interface for a `TextStrokeStyle` object

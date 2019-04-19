@@ -1,5 +1,5 @@
-import { TextStyleBase } from "./text-style-base";
 import { ConditionalTextStyle } from "./conditional-text-style";
+import { TextStyleBase } from "./text-style-base";
 
 /**
  * Signature/expression for a `TextStyle` object
