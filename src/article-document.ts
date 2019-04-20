@@ -1,4 +1,8 @@
-import { ComponentLayouts } from "./article-layout";
+import {
+    ComponentLayouts,
+    Layout,
+} from "./article-layout";
+import { AutoPlacement } from "./auto-placement";
 import { DocumentStyle } from "./document-style";
 import {
     ComponentTextStyles,
