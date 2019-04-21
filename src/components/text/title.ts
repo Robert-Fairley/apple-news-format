@@ -1,6 +1,5 @@
 import {
   TextComponent,
-  TextComponentFormat,
 } from "./text-component";
 
 /**
@@ -10,5 +9,5 @@ import {
  */
 export interface Title extends TextComponent {
   role: "title";
-  format?: TextComponentFormat;
+
 }

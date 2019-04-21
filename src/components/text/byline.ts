@@ -1,6 +1,5 @@
 import {
   TextComponent,
-  TextComponentFormat,
 } from "./text-component";
 
 /**
@@ -10,5 +9,4 @@ import {
  */
 export interface Byline extends TextComponent {
   role: "byline";
-  format?: TextComponentFormat;
 }

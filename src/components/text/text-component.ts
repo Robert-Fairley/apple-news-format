@@ -30,6 +30,7 @@ export type TextComponentRole
  */
 export interface TextComponent extends ComponentBase {
   role: TextComponentRole;
+  format?: TextComponentFormat;
   text: string;
   additions?: Addition[];
   conditional?: ConditionalText[];

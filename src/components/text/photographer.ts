@@ -1,6 +1,5 @@
 import {
   TextComponent,
-  TextComponentFormat,
 } from "./text-component";
 
 /**
@@ -9,6 +8,5 @@ import {
  * @extends {TextComponent}
  */
 export interface Photographer extends TextComponent {
-  format?: TextComponentFormat;
   role: "photographer";
 }

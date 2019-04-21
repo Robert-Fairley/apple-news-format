@@ -1,6 +1,5 @@
 import {
   TextComponent,
-  TextComponentFormat,
 } from "./text-component";
 
 export type TextComponentHeadingRole
@@ -14,5 +13,4 @@ export type TextComponentHeadingRole
 
 export interface Heading extends TextComponent {
   role: TextComponentHeadingRole;
-  format?: TextComponentFormat;
 }
