@@ -6,6 +6,7 @@ import { ComponentLayouts } from "./article-layout";
 import { AutoPlacement } from "./auto-placement";
 import { DocumentStyle } from "./document-style";
 import { Metadata } from "./metadata";
+import { ComponentStyles } from "./styles/component-styles";
 import {
     ComponentTextStyles,
     TextStyles,
