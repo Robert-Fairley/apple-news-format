@@ -4,6 +4,9 @@ import { ComponentStyle } from "../styles/component-styles";
 import { Behavior } from "./behavior";
 import { ComponentAnimation } from "./component-animation";
 
+/**
+ * Signature/interface for common fields to component objects
+ */
 export interface ComponentBase {
   role?: string; // ComponentTypes
   anchor?: Anchor;
