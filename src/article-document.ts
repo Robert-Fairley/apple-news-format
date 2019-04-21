@@ -2,13 +2,14 @@ import {
     ComponentLayouts,
     Layout,
 } from "./article-layout";
+import { ComponentLayouts } from "./article-layout";
 import { AutoPlacement } from "./auto-placement";
 import { DocumentStyle } from "./document-style";
+import { Metadata } from "./metadata";
 import {
     ComponentTextStyles,
     TextStyles,
 } from "./styles/text-styles";
-
 /**
  * Signature/interface for the `ArticleDocument` object
  */
