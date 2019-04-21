@@ -1,5 +1,5 @@
 import { ComponentBase } from "./component-base";
-import { ConditionalComponent } from "./conditional-component":
+import { ConditionalComponent } from "./conditional-component";
 
 /**
  * Signature/interface for a `Component` object
