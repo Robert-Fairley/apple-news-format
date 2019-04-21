@@ -4,6 +4,7 @@ import {
 } from "./article-layout";
 import { AutoPlacement } from "./auto-placement";
 import { DocumentStyle } from "./document-style";
+import { ComponentStyles } from "./styles/component-styles";
 import {
     ComponentTextStyles,
     TextStyles,
