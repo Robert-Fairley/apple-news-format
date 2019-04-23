@@ -15,6 +15,6 @@ export type DateTime = string;
  * completely block it so that string is always valid with ANF and the API
  */
 export const DateTime = (s: DateTime): DateTime | undefined =>
-  (String(s).match(/^(\d{4}-\d{2}-\d{2}T\d{2}(:\d{2}?):\d{2}).+?$/))
+  !!(String(s).match(/^(\d{4}-\d{2}-\d{2}T\d{2}(:\d{2}?):\d{2}).+?$/))
     ? s
     : void 0;

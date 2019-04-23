@@ -11,7 +11,7 @@ export type HTMLTableData = string;
  * @returns {HTMLTableData|undefined}
  */
 export const HTMLTableData = (s: HTMLTableData): HTMLTableData | undefined =>
-  String(s).match(/^<table>.+?<\/table>$/ms)
+  !!(String(s).match(/^<table>.+?<\/table>$/ms))
     ? s
     : void 0;
 

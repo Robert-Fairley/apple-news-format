@@ -14,6 +14,12 @@ Included are a small selection of validation functions for certain fields that c
   * Tests for a properly formed URI, and valid media types. Ex: `"bundle://a-video.mp4"`
 * [ListItemStyleCharacter](src/styles/text-styles/list-item-style.ts)
   * Tests for a single valid character for use in lists. Ex: `"•"`
+* [DateTime](src/primitives/date-time.ts)
+  * Tests for a valid ISO 8601 date time string
+  * TODO: Make test more explicit
+* [HTMLTableData](src/components/tables/html-table.ts)
+  * Tests for a valid string containing and opening and closing `<table>` tag.
+  * TODO: Test for appropriate children elements: `<thead>`, `<tbody>`, `<tr>`, `<td>`, etc.
 
 ## License
 
