@@ -3,7 +3,6 @@ import {
     Margin,
     Padding,
     SupportedUnits,
-    VerticalAlignment,
 } from "../primitives";
 
 /**
@@ -23,7 +22,7 @@ export type IgnoreDocumentParameters
 export interface ComponentLayoutBase {
     columnSpan?: number; // Integer - minimum 1
     columnStart?: number; // Unsigned Integer
-    horizontalAlignment?: HorizontalAlignment;
+    horizontalContentAlignment?: HorizontalAlignment;
     IgnoreDocumentParameters?: boolean | IgnoreDocumentParameters;
     ignoreDocumentMargin?: boolean | IgnoreDocumentParameters;
     margin: Margin | number; // Integer

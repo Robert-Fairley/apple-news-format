@@ -1,9 +1,9 @@
-import { Fill } from "./fill";
 import {
     HorizontalAlignment,
     URI,
     VerticalAlignment,
-} from "../primitives";
+} from "../../primitives";
+import { Fill } from "./fill";
 
 /**
  * Possible values for an `ImageFill` fillMode field

@@ -1,6 +1,6 @@
+import { DropCapStyle } from "./drop-cap-style";
 import { TextStyle } from "./text-style";
 import { TextStyleBase } from "./text-style-base";
-import { DropCapStyle } from "./drop-cap-style";
 
 /**
  * Signature/interface for a `ComponentTextSTtyle` object.

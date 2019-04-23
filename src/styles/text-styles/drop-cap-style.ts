@@ -1,4 +1,4 @@
-import { Color } from "../primitives";
+import { Color } from "../../primitives";
 
 /**
  * Signature/interface for the `DropCapStyle` object

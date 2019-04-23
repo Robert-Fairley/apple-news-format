@@ -6,3 +6,11 @@ export { InlineTextStyle } from "./inline-text-style";
 export { ListItemStyle } from "./list-item-style";
 export { TextStrokeStyle } from "./text-stroke-style";
 export { TextStyle } from "./text-style";
+
+export interface ComponentTextStyles {
+  [key: string]: ComponentTextStyle;
+}
+
+export interface TextStyles {
+  [key: string]: TextStyle;
+}

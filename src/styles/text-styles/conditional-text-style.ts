@@ -1,6 +1,6 @@
 import {
     Condition,
-} from "../primitives";
+} from "../../primitives";
 import { TextStyleBase } from "./text-style-base";
 
 /**
