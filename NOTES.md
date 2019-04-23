@@ -15,4 +15,8 @@ ALAC: Apple Lossless
 HE-AAC: MPEG-4 High Efficiency AAC
 ```
 
+## Solutions
+
+* To prevent further issues with string-matching validation methods, jst convert match result to strict boolean in cases where match first match-group does not need to match the input explicitly.
+
 
