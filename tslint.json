@@ -9,7 +9,8 @@
         "interface-name": false,
         "no-namespace": false,
         "no-internal-module": false,
-        "no-reference": false
+        "no-reference": false,
+        "no-shadowed-variable": false
     },
     "rulesDirectory": []
 }
