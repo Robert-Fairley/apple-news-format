@@ -1,12 +1,15 @@
 {
   "name": "apple-news-format",
   "version": "0.1.5",
-  "description": "",
-  "main": "index.js",
+  "description": "Types for Apple News Format, including a small selection of string validation functions",
+  "main": "lib",
   "scripts": {
+    "build": "./node_modules/.bin/tsc",
     "test": "./node_modules/.bin/ts-mocha ./tests/**/*.test.ts",
     "lint": "./node_modules/.bin/tslint ./src/**/*.ts",
-    "prepublish": "npm run lint && npm test"
+    "prepublish": "npm run lint && npm test",
+    "clean": "rm -rf lib",
+    "postinstall": "npm run build"
   },
   "husky": {
     "hooks": {
@@ -14,8 +17,22 @@
       "pre-push": "npm run lint && npm test"
     }
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "apple news",
+    "apple-news",
+    "format",
+    "apple news format",
+    "news format",
+    "types",
+    "@types",
+    "typings",
+    "ts",
+    "typescript"
+  ],
+  "author": {
+    "name": "Robert Fairley",
+    "email": "rrafairley@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.1.7",

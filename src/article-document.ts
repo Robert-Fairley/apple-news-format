@@ -17,7 +17,7 @@ import {
  */
 export interface ArticleDocument {
     components: MemberComponent[];
-    componentTextStyles: ComponentTextStyles;
+    componentTextStyles?: ComponentTextStyles;
     identifier: string;
     language: string;
     layout: Layout;

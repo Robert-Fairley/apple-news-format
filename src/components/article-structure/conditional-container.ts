@@ -1,6 +1,6 @@
+import { Anchor } from "../../article-layout";
 import { ComponentLayout } from "../../article-layout/component-layout";
 import {
-  Anchor,
   Condition,
 } from "../../primitives";
 import { ComponentStyle } from "../../styles/component-styles/component-style";
