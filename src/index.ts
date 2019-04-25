@@ -85,7 +85,7 @@ export namespace AppleNews {
   export type Illustrator = Components.Text.Illustrator;
   export type Intro = Components.Text.Intro;
   export type Photographer = Components.Text.Photographer;
-  export type Pullquote = Components.Text.Pullquote;
+  export type PullQuote = Components.Text.PullQuote;
   export type Quote = Components.Text.Quote;
   export type Title = Components.Text.Title;
 

@@ -8,6 +8,6 @@ export { Heading } from "./heading";
 export { Illustrator } from "./illustrator";
 export { Intro } from "./intro";
 export { Photographer } from "./photographer";
-export { Pullquote } from "./pullquote";
+export { PullQuote } from "./pullquote";
 export { Quote } from "./quote";
 export { Title } from "./title";
