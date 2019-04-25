@@ -1,5 +1,8 @@
+import {
+  IdentifierURI,
+  URI,
+} from "../primitives";
 import { Addition } from "./addition";
-import { IdentifierURI } from "./primitives";
 
 /**
  * Signature/interface for a `Link` object

@@ -7,6 +7,9 @@ export { ListItemStyle } from "./list-item-style";
 export { TextStrokeStyle } from "./text-stroke-style";
 export { TextStyle } from "./text-style";
 
+import { ComponentTextStyle } from "./component-text-style";
+import { TextStyle } from "./text-style";
+
 export interface ComponentTextStyles {
   [key: string]: ComponentTextStyle;
 }

@@ -1,8 +1,8 @@
-import { Addition } from "../../primitives";
 import {
   ComponentTextStyle,
   InlineTextStyle,
 } from "../../styles/text-styles";
+import { Addition } from "../addition";
 
 /**
  * Possible values for a Formatted Text format field 

@@ -1,3 +1,4 @@
+export { Anchor } from "./anchor";
 export {
     HorizontalAlignment,
     VerticalAlignment,

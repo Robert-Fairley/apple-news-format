@@ -1,11 +1,11 @@
 import { ComponentLayout } from "../../article-layout/component-layout";
-import { ComponentAnimation } from "../../component-animation";
 import {
   Anchor,
-  Behavior,
   Condition,
 } from "../../primitives";
 import { ComponentStyle } from "../../styles/component-styles/component-style";
+import { Behavior } from "../behavior";
+import { ComponentAnimation } from "../component-animation";
 
 /**
  * Signature/interface for a `ConditionalContainer` object

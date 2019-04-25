@@ -1,7 +1,7 @@
 import {
   Color,
   SupportedUnits,
-} from "../primitives";
+} from "../../primitives";
 import { TableStrokeStyle } from "./table-stroke-style";
 
 /**

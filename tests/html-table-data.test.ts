@@ -26,7 +26,7 @@ describe("HTMLTableData: Validation Lambda", () => {
       "<table>No closing tag",
       "<p>The wrong html tags</p>",
       "a bad string and all",
-      42,
+      "42",
     ];
 
     for (const str of invalidStrs) {

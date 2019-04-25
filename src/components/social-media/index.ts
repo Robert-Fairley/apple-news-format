@@ -1,3 +1,4 @@
+import { URI } from "../../primitives";
 import { Component } from "../component";
 
 /**

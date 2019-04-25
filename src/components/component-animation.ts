@@ -15,7 +15,7 @@ export type StartingPosition
  * Signature/interface for a `ComponentAnimation` object
  * @see https://developer.apple.com/documentation/apple_news/componentanimation
  */
-export interface CopmonentAnimation {
+export interface ComponentAnimation {
   type: ComponentAnimationType;
   preferredStartingPosition?: StartingPosition;
   userControllable?: boolean;

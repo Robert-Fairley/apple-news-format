@@ -1,7 +1,7 @@
 import { Component } from "../component";
 import { ComponentLink } from "../component-link";
 import { CollectionDisplay  } from "./collection-display";
-import { ConditionalContainer } from "./conditional-display";
+import { ConditionalContainer } from "./conditional-container";
 import { HorizontalStackDisplay } from "./horizontal-stack-display";
 
 /**
@@ -13,6 +13,17 @@ export type ComponentFieldValue
   | number
   | boolean
   | string[];
+
+/**
+ * Possible values for a container component role
+ */
+export type ContainerRoles
+  = "container"
+  | "article_link"
+  | "header"
+  | "chapter"
+  | "aside"
+  | "section";
 
 /**
  * Expression for a field containing a range of components
@@ -27,7 +38,7 @@ export type MemberComponent
  * @extends {Component}
  */
 export interface Container extends Component {
-  role: "container";
+  role: ContainerRoles;
   additions?: ComponentLink[];
   conditional?: ConditionalContainer[];
   contentDisplay?: CollectionDisplay | HorizontalStackDisplay;
