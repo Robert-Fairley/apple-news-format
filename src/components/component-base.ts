@@ -1,5 +1,5 @@
 import { ComponentLayout } from "../article-layout";
-import { Anchor } from "../primitives";
+import { Anchor } from "../article-layout";
 import { ComponentStyle } from "../styles/component-styles";
 import { Behavior } from "./behavior";
 import { ComponentAnimation } from "./component-animation";

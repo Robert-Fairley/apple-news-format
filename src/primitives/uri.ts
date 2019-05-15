@@ -9,6 +9,6 @@ export type URI = string;
  * @returns {URI|undefined} Validated URI string or undefined if invalid
  */
 export const URI = (s: string): URI | undefined =>
-    String(s).match(/^(https|http|bundle):\/\/.+\.(png|jpg|jpeg|gif|m3u8|mov|aac|mp3|mp4|ac3)$/)
+    !!(String(s).match(/^(https|http|bundle):\/\/.+\.(png|jpg|jpeg|gif|m3u8|mov|aac|mp3|mp4|ac3)$/))
         ? s
         : void 0;

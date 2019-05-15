@@ -10,6 +10,6 @@ export type SupportedUnits = string;
  * @returns {SupportedUnits} Validated string or undefined
  */
 export const SupportedUnits = (s: SupportedUnits): SupportedUnits | undefined =>
-    String(s).match(/^[0-9\.]+(vw|vmin|vmax|vh|dg|dm|cw|gut|pt)?$/)
+    !!(String(s).match(/^[0-9\.]+(vw|vmin|vmax|vh|dg|dm|cw|gut|pt)?$/))
         ? s
         : void 0;

@@ -23,7 +23,7 @@ export type ListItemStyleCharacter = string;
  * @returns {ListItemStyleCharacter} Validated field value or undefined
  */
 export const ListItemStyleCharacter = (s: ListItemStyleCharacter): ListItemStyleCharacter | undefined =>
-    (String(s).match(/^.|\s$/)[0] === s)
+    !!(String(s).match(/^.|\s$/)[0] === s)
         ? s
         : void 0;
 

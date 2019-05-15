@@ -12,6 +12,6 @@ export type Color = string;
  */
 export const Color =
     (s: Color): Color | undefined =>
-        (String(s).match(/^(\#\w{8})|(\#\w{6})|(\#\w{4})|(\#\w{3})|([a-z]{0,20})$/)[0] === s)
+        !!(String(s).match(/^(\#\w{8})|(\#\w{6})|(\#\w{4})|(\#\w{3})|([a-z]{0,20})$/)[0] === s)
             ? s
             : void 0;
