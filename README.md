@@ -59,6 +59,8 @@ const { URI } = require("apple-news-format/lib/primitives");
   * Tests for a valid unit type. Ex: `"80vw"`
 * [URI](src/primitives/uri.ts)
   * Tests for a properly formed URI, and valid media types. Ex: `"bundle://a-video.mp4"`
+* [Identifier URI](src/primitives/identifier-uri.ts)
+  * Tests for a properly formed internal URI targeting other parts of the document. Ex: `"#info"`
 * [ListItemStyleCharacter](src/styles/text-styles/list-item-style.ts)
   * Tests for a single valid character for use in lists. Ex: `"•"`
 * [DateTime](src/primitives/date-time.ts)
