@@ -47,6 +47,11 @@ export type VerticalAlignment
     | "baseline";
 
 /**
+ * Expression of possible values for `HorizontalAlignment` fields
+ */
+export type HorizontalAlignment = 'left' | 'center' | 'right'
+
+/**
  * Signature/interface for a `TextDecoration` object.
  */
 export interface TextDecoration {

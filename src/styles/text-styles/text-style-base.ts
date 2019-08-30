@@ -7,6 +7,7 @@ import {
     TextDecoration,
     TextTransform,
     TextVerticalAlignment,
+    TextHorizontalAlignment,
 } from "../../primitives";
 import { ListItemStyle } from "./list-item-style";
 import { TextStrokeStyle } from "./text-stroke-style";
@@ -29,6 +30,7 @@ export interface TextStyleBase {
     textColor?: Color;
     textShadow?: Shadow;
     textTransform?: TextTransform;
+    textAlignment?: TextHorizontalAlignment
     tracking?: number; // Integer | Float
     underline?: TextDecoration | boolean;
     unorderedListItems?: ListItemStyle;

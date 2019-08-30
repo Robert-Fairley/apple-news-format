@@ -26,5 +26,6 @@ export {
     TextDecoration,
     TextTransform,
     VerticalAlignment as TextVerticalAlignment,
+    HorizontalAlignment as TextHorizontalAlignment,
 } from "./text";
 export { URI } from "./uri";
