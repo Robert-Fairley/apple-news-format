@@ -49,7 +49,7 @@ export type VerticalAlignment
 /**
  * Expression of possible values for `HorizontalAlignment` fields
  */
-export type HorizontalAlignment = 'left' | 'center' | 'right'
+export type HorizontalAlignment = "left" | "center" | "right";
 
 /**
  * Signature/interface for a `TextDecoration` object.
