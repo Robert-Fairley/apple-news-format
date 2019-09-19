@@ -23,7 +23,7 @@ export interface ArticleDocument {
     layout: Layout;
     title: string;
     version: string;
-    autoPlacement?: AutoPlacement;
+    autoplacement?: AutoPlacement;
     componentLayouts?: ComponentLayouts;
     componentStyles?: ComponentStyles;
     documentStyle?: DocumentStyle;
