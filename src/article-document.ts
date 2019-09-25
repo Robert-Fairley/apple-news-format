@@ -3,7 +3,7 @@ import {
     Layout,
 } from "./article-layout";
 import { AutoPlacement } from "./auto-placement";
-import { MemberComponent } from "./components/article-structure/container";
+import { AnyComponent } from "./components/any-component";
 import { DocumentStyle } from "./document-style";
 import { Metadata } from "./metadata";
 import { ComponentStyles } from "./styles/component-styles";
@@ -16,7 +16,7 @@ import {
  * Signature/interface for the `ArticleDocument` object
  */
 export interface ArticleDocument {
-    components: MemberComponent[];
+    components: AnyComponent[];
     componentTextStyles?: ComponentTextStyles;
     identifier: string;
     language: string;
