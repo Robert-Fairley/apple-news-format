@@ -9,6 +9,7 @@ import { ArticleDocument as RootArticleDocument } from "./article-document";
 import { AutoPlacement as RootAutoPlacement } from "./auto-placement";
 import { ConditionalAutoPlacement as RootConditionalAutoPlacement } from "./conditional-auto-placement";
 import { DocumentStyle as RootDocumentStyle } from "./document-style";
+import { AnyComponent as RootAnyComponent } from "./components/any-component";
 
 export namespace AppleNews {
   // Root
@@ -17,6 +18,7 @@ export namespace AppleNews {
   export type AutoPlacement = RootAutoPlacement;
   export type ConditionalAutoPlacement = RootConditionalAutoPlacement;
   export type DocumentStyle = RootDocumentStyle;
+  export type AnyComponent = RootAnyComponent;
 
   // Article Layout
   export type Anchor = ArticleLayout.Anchor;
