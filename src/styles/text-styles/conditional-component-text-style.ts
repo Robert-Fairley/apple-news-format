@@ -7,5 +7,5 @@ import { ComponentTextStyleBase } from "./component-text-style-base";
  * @see https://developer.apple.com/documentation/apple_news/conditionalcomponenttextstyle
  */
 export interface ConditionalComponentTextStyle extends ComponentTextStyleBase {
-    condition: Condition[];
+    conditions: Condition[];
 }
