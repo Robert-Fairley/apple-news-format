@@ -48,6 +48,14 @@ export type ConditionViewLocation
     | "issue";
 
 /**
+ * Expression of possible values for condition `preferredColorScheme` field
+ */
+export type ConditionPreferredColorScheme
+    = "any"
+    | "light"
+    | "dark";
+
+/**
  * Signature/interface for a `Condition` object
  * @see https://developer.apple.com/documentation/apple_news/condition
  */
@@ -63,6 +71,7 @@ export interface Condition {
     minViewportAspectRatio?: number; // Unsigned Float
     minViewportWidth?: number; // Integer
     platform?: ConditionPlatform;
+    preferredColorScheme?: ConditionPreferredColorScheme;
     subscriptionStatus?: ConditionSubscriptionStatus;
     verticalSizeClass?: ConditionSizeClass;
     viewLocation?: ConditionViewLocation;
