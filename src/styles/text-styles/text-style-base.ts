@@ -3,6 +3,7 @@ import {
     FontStyle,
     FontWeight,
     FontWidth,
+    FontFamily,
     Shadow,
     TextDecoration,
     TextTransform,
@@ -17,7 +18,7 @@ import { TextStrokeStyle } from "./text-stroke-style";
  */
 export interface TextStyleBase {
     backgroundColor?: Color;
-    fontFamily?: string;
+    fontFamily?: FontFamily;
     fontName?: string;
     fontSize?: number; // Integer
     fontStyle?: FontStyle;

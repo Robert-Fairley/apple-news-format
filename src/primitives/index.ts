@@ -23,6 +23,7 @@ export {
     FontStyle,
     FontWeight,
     FontWidth,
+    FontFamily,
     TextDecoration,
     TextTransform,
     VerticalAlignment as TextVerticalAlignment,
