@@ -112,6 +112,7 @@ export namespace AppleNews {
   export type FontStyle = Primitives.FontStyle;
   export type FontWeight = Primitives.FontWeight;
   export type FontWidth = Primitives.FontWidth;
+  export type FontFamily = Primitives.FontFamily;
   export type TextDecoration = Primitives.TextDecoration;
   export type TextTransform = Primitives.TextTransform;
   export type TextVerticalAlignment = Primitives.TextVerticalAlignment;
