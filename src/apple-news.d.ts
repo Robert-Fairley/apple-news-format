@@ -8,16 +8,18 @@ import { AdvertisementAutoPlacement as RootAdvertisementAutoPlacement } from "./
 import { ArticleDocument as RootArticleDocument } from "./article-document";
 import { AutoPlacement as RootAutoPlacement } from "./auto-placement";
 import { ConditionalAutoPlacement as RootConditionalAutoPlacement } from "./conditional-auto-placement";
-import { DocumentStyle as RootDocumentStyle } from "./document-style";
+import { DocumentStyle as RootDocumentStyle, ConditionalDocumentStyle as RootConditionalDocumentStyle } from "./document-style";
+import { AnyComponent as RootAnyComponent } from "./components/any-component";
 
 declare namespace AppleNews {
-
- // Root
+  // Root
   export type AdvertisementAutoPlacement = RootAdvertisementAutoPlacement;
   export type ArticleDocument = RootArticleDocument;
   export type AutoPlacement = RootAutoPlacement;
   export type ConditionalAutoPlacement = RootConditionalAutoPlacement;
   export type DocumentStyle = RootDocumentStyle;
+  export type ConditionalDocumentStyle = RootConditionalDocumentStyle;
+  export type AnyComponent = RootAnyComponent;
 
   // Article Layout
   export type Anchor = ArticleLayout.Anchor;
