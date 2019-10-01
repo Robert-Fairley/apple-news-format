@@ -8,5 +8,5 @@ import { ConditionalComponentTextStyle } from "./conditional-component-text-styl
  * @extends {ComponentTextStyleBase}
  */
 export interface ComponentTextStyle extends ComponentTextStyleBase {
-    conditional?: ConditionalComponentTextStyle[];
+    conditional?: ConditionalComponentTextStyle | ConditionalComponentTextStyle[];
 }

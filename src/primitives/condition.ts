@@ -60,7 +60,7 @@ export type ConditionPreferredColorScheme
  * @see https://developer.apple.com/documentation/apple_news/condition
  */
 export interface Condition {
-    horizontalSizeClass: ConditionSizeClass;
+    horizontalSizeClass?: ConditionSizeClass;
     maxColumns?: number; // Integer - Minimum: 1
     maxContentSizeCategory?: ConditionContentSizeCategory;
     maxSpecVersion?: string; // Apple News Version
