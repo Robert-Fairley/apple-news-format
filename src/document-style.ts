@@ -6,7 +6,7 @@ import { Color, Condition } from "./primitives";
  */
 export interface DocumentStyle {
      backgroundColor?: Color;
-     conditional?: ConditionalDocumentStyle | ConditionalDocumentStyle[];
+     conditional?: ConditionalDocumentStyle[]; // NOTE: docs state this accepts an instance or array but validator fails if not array.
 }
 
 /**
