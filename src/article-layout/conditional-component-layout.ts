@@ -7,5 +7,5 @@ import { ComponentLayoutBase } from "./component-layout-base";
  * @extends {ComponentLayoutBase}
  */
 export interface ConditionalComponentLayout extends ComponentLayoutBase {
-    conditions: Condition[];
+    conditions: Condition | Condition[];
 }

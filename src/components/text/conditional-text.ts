@@ -1,8 +1,5 @@
 import { Condition } from "../../primitives";
-import {
-  ComponentTextStyle,
-  InlineTextStyle,
-} from "../../styles/text-styles";
+import { ComponentTextStyle, InlineTextStyle } from "../../styles/text-styles";
 import { ComponentBase } from "../component-base";
 
 /**
@@ -11,7 +8,7 @@ import { ComponentBase } from "../component-base";
  * @extends {ComponentBase}
  */
 export interface ConditionalText extends ComponentBase {
-  conditions: Condition[];
+  conditions: Condition | Condition[];
   inlineTextStyles?: InlineTextStyle[];
   textStyle?: ComponentTextStyle | string;
 }

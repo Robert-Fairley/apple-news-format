@@ -1,6 +1,4 @@
-import {
-    Condition,
-} from "../../primitives";
+import { Condition } from "../../primitives";
 import { TextStyleBase } from "./text-style-base";
 
 /**
@@ -9,5 +7,5 @@ import { TextStyleBase } from "./text-style-base";
  * @see https://developer.apple.com/documentation/apple_news/conditionaltextstyle
  */
 export interface ConditionalTextStyle extends TextStyleBase {
-    conditions: Condition[];
+    conditions: Condition | Condition[];
 }

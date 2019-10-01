@@ -7,5 +7,5 @@ import { ComponentStyleBase } from "./component-style-base";
  * @extends {ComponentStyleBase}
  */
 export interface ConditionalComponentStyle extends ComponentStyleBase {
-  condition: Condition[];
+  condition: Condition | Condition[];
 }

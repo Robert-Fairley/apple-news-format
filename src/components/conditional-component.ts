@@ -7,5 +7,5 @@ import { ComponentBase } from "./component-base";
  * @extends {ComponentBase}
  */
 export interface ConditionalComponent extends ComponentBase {
-  conditions?: Condition[];
+  conditions: Condition | Condition[];
 }

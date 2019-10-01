@@ -7,5 +7,5 @@ import { Condition } from "./primitives/condition";
  * @extends {AutoPlacementBase}
  */
 export interface ConditionalAutoPlacement extends AutoPlacementBase {
-conditions: Condition[];
+    conditions: Condition | Condition[];
 }
