@@ -7,5 +7,5 @@ import { TextStyleBase } from "./text-style-base";
  * @extends {TextStyleBase}
  */
 export interface TextStyle extends TextStyleBase {
-    conditional?: ConditionalTextStyle[];
+    conditional?: ConditionalTextStyle | ConditionalTextStyle[];
 }

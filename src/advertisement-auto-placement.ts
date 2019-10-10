@@ -18,7 +18,7 @@ export type BannerType
  */
 export interface AdvertisementAutoPlacement extends AutoPlacementBase {
   bannerType?: BannerType;
-  conditional?: ConditionalAutoPlacement[];
+  conditional?: ConditionalAutoPlacement | ConditionalAutoPlacement[];
   distanceFromMedia?: SupportedUnits | number; // Integer
   frequency?: number; // Unsigned Integer, max: 10
 }
