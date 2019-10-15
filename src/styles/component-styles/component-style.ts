@@ -7,5 +7,5 @@ import { ConditionalComponentStyle } from "./conditional-component-style";
  * @see https://developer.apple.com/documentation/apple_news/componentstyle
  */
 export interface ComponentStyle extends ComponentStyleBase {
-  conditional?: ConditionalComponentStyle[];
+  conditional?: ConditionalComponentStyle | ConditionalComponentStyle[];
 }

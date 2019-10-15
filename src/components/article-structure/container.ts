@@ -34,7 +34,7 @@ export type ContainerRoles
 export interface Container extends Component {
   role: ContainerRoles;
   additions?: ComponentLink[];
-  conditional?: ConditionalContainer[];
+  conditional?: ConditionalContainer | ConditionalContainer[];
   contentDisplay?: CollectionDisplay | HorizontalStackDisplay;
   components?: AnyComponent[];
 }
