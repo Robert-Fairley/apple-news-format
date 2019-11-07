@@ -25,7 +25,7 @@ export interface ComponentLayoutBase {
     horizontalContentAlignment?: HorizontalAlignment;
     IgnoreDocumentParameters?: boolean | IgnoreDocumentParameters;
     ignoreDocumentMargin?: boolean | IgnoreDocumentParameters;
-    margin: Margin | number; // Integer
+    margin?: Margin | number; // Integer
     maximumContentWidth?: SupportedUnits | number; // Integer
     minimumHeight?: SupportedUnits | number; // Integer
     minimumWidth?: SupportedUnits | number; // Integer
