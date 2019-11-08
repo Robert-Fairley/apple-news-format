@@ -20,12 +20,17 @@ export type IgnoreDocumentParameters
  * @see https://developer.apple.com/documentation/apple_news/componentlayout
  */
 export interface ComponentLayoutBase {
-    columnSpan?: number; // Integer - minimum 1
+    columnSpan?: number; // Unisigned Integer - minimum 1
+    /**
+     * The column where the component's left side anchored.
+     * @type Unsigned Integer
+     */
     columnStart?: number; // Unsigned Integer
     horizontalContentAlignment?: HorizontalAlignment;
-    IgnoreDocumentParameters?: boolean | IgnoreDocumentParameters;
+    ignoreDocumentGutter?: boolean | IgnoreDocumentParameters;
     ignoreDocumentMargin?: boolean | IgnoreDocumentParameters;
-    margin: Margin | number; // Integer
+    ignoreViewportPadding?: boolean | IgnoreDocumentParameters;
+    margin?: Margin | number; // Integer
     maximumContentWidth?: SupportedUnits | number; // Integer
     minimumHeight?: SupportedUnits | number; // Integer
     minimumWidth?: SupportedUnits | number; // Integer
