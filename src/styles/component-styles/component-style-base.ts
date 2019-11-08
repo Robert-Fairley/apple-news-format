@@ -16,6 +16,7 @@ export interface ComponentStyleBase {
   backgroundColor?: Color;
   border?: Border;
   fill?: Fill | GradientFill | ImageFill | VideoFill;
+  mask?: CornerMask;
   opacity?: number; // Float 0.0 - 1.0
   tableStyle?: TableStyle; // @todo
 }
