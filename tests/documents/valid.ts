@@ -1,24 +1,30 @@
 import AppleNews from "../../src";
 
-const testDocument: AppleNews.ArticleDocument = {
-  version: "1.0",
-  identifier: "Apple_Demo",
-  title: "Title on Scrim",
+const ValidDoc: AppleNews.ArticleDocument = {
+  version: "1.10.1",
+  identifier: "12345",
   language: "en",
-  layout: {
-    columns: 20,
-    width: 1024,
-    margin: 60,
-    gutter: 20
-  },
+  title: "Title",
   subtitle: "Non occidere quae cumque vi ventia",
   metadata: {
     excerpt: "Title on Scrim",
     thumbnailURL:
       "https://developer.apple.com/news-publisher/download/Apple-News-Example-Articles/images/Iceland01.jpg"
   },
+  layout: {
+    columns: 20,
+    width: 1024,
+    margin: 60,
+    gutter: 20
+  },
   documentStyle: {
-    backgroundColor: "#f6f6f6"
+    backgroundColor: "#fff",
+    conditional: [
+      {
+        conditions: { preferredColorScheme: "dark" },
+        backgroundColor: "#000"
+      }
+    ]
   },
   components: [
     {

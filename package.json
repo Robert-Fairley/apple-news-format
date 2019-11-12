@@ -5,7 +5,7 @@
   "main": "lib",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
-    "test": "./node_modules/.bin/ts-mocha ./tests/**/*.test.ts && tsc ./tests/documents/doc1.ts --noEmit",
+    "test": "./node_modules/.bin/ts-mocha ./tests/**/*.test.ts && tsc ./tests/documents/*.ts --noEmit",
     "lint": "./node_modules/.bin/tslint ./src/**/*.ts",
     "prepublish": "npm run lint && npm test",
     "clean": "rm -rf lib",
