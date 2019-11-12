@@ -18,7 +18,7 @@ export interface ComponentTextStyleBase extends TextStyleBase {
     dropCapStyle?: DropCapStyle;
     firstLineIndent?: number; // Integer
     hangingPunctuation?: boolean;
-    hypenation?: boolean;
+    hyphenation?: boolean;
     lineHeight?: number; // Integer
     linkStyle?: TextStyle;
     paragraphSpacingAfter?: number; // Integer
