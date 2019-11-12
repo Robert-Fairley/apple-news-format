@@ -21,4 +21,7 @@ export interface CollectionDisplay {
   gutter?: SupportedUnits | number; // Integer
   maximumWidth?: SupportedUnits | number; // Integer
   minimumWidth?: SupportedUnits | number; // Integer
+  rowSpacing?: SupportedUnits | number; // Integer
+  variableSizing?: boolean;
+  widows: "equalize" | "optimize";
 }
