@@ -23,5 +23,5 @@ export interface CollectionDisplay {
   minimumWidth?: SupportedUnits | number; // Integer
   rowSpacing?: SupportedUnits | number; // Integer
   variableSizing?: boolean;
-  widows: "equalize" | "optimize";
+  widows?: "equalize" | "optimize";
 }
