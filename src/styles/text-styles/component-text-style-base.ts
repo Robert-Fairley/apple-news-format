@@ -15,7 +15,7 @@ type TextAlignment
  * @see https://developer.apple.com/documentation/apple_news/componenttextstyle
  */
 export interface ComponentTextStyleBase extends TextStyleBase {
-    dropCapStyle?: DropCapStyle;
+    dropCapStyle?: DropCapStyle | "none";
     firstLineIndent?: number; // Integer
     hangingPunctuation?: boolean;
     hyphenation?: boolean;
