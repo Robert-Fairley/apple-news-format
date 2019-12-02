@@ -1,9 +1,9 @@
 import {
     Color,
+    FontFamily,
     FontStyle,
     FontWeight,
     FontWidth,
-    FontFamily,
     Shadow,
     TextDecoration,
     TextTransform,
@@ -17,21 +17,21 @@ import { TextStrokeStyle } from "./text-stroke-style";
  * @see https://developer.apple.com/documentation/apple_news/textstyle
  */
 export interface TextStyleBase {
-    backgroundColor?: Color;
-    fontFamily?: FontFamily;
+    backgroundColor?: Color | "none";
+    fontFamily?: FontFamily | "system";
     fontName?: string;
     fontSize?: number; // Integer
     fontStyle?: FontStyle;
     fontWeight?: FontWeight;
     fontWidth?: FontWidth;
-    orderedListItem?: ListItemStyle;
+    orderedListItem?: ListItemStyle | "none";
     strikethrough?: TextDecoration | boolean;
-    stroke?: TextStrokeStyle;
+    stroke?: TextStrokeStyle | "none";
     textColor?: Color;
-    textShadow?: Shadow;
+    textShadow?: Shadow | "none";
     textTransform?: TextTransform;
     tracking?: number; // Integer | Float
     underline?: TextDecoration | boolean;
-    unorderedListItems?: ListItemStyle;
+    unorderedListItems?: ListItemStyle | "none";
     verticalAlignment?: TextVerticalAlignment;
 }
