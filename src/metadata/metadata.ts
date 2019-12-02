@@ -3,6 +3,7 @@ import {
   URI,
 } from "../primitives";
 import { CampaignData } from "./campaign-data";
+import { Issue } from "./issue";
 import { LinkedArticle } from "./linked-article";
 
 /**
@@ -25,4 +26,5 @@ export interface Metadata {
   thumbnailURL?: string; // ThumbnailURI
   transparentToolbar?: boolean;
   videoURL?: URI;
+  issue?: Issue;
 }
