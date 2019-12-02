@@ -69,7 +69,7 @@ export interface ComponentLayoutBase {
      * Specify this value as a number in points or using one of the available units of measure for components.
      * @type SupportedUnits | Integer
      */
-    maximumContentWidth?: SupportedUnits | number; // Integer
+    maximumContentWidth?: SupportedUnits | number;
     /**
      * A value that sets the minimum height of the component. A component is taller than its
      * defined minimumHeight when the contents require the component to be taller.
@@ -77,25 +77,25 @@ export interface ComponentLayoutBase {
      * available units of measure for components.
      * @type SupportedUnits | Integer
      */
-    minimumHeight?: SupportedUnits | number; // Integer
+    minimumHeight?: SupportedUnits | number;
     /**
      * A value that defines the minimum width of the layout when used within a Container
      * with HorizontalStackDisplay as the specified contentDisplay type. The minimum width
      * can be defined as a number in points or using one of the available units of measure for components.
      * @type SupportedUnits | Integer
      */
-    minimumWidth?: SupportedUnits | number; // Integer
+    minimumWidth?: SupportedUnits | number;
     /**
      * A value that defines the maximum width of the layout when used within a Container
      * with HorizontalStackDisplay as the specified contentDisplay type. The maximum width can be
      * defined as a number in points or using one of the available units of measure for components.
      * @type SupportedUnits | Integer
      */
-    maximumWidth?: SupportedUnits | number; // Integer
+    maximumWidth?: SupportedUnits | number;
     /**
      * A value that defines the padding between the content of the component and the edges of the component.
      * Padding can be defined as a number in points or using one of the available units of measure for components.
      * @type SupportedUnits | Padding | Integer
      */
-    padding?: SupportedUnits | Padding | number; // Integer
+    padding?: SupportedUnits | Padding | number;
 }
