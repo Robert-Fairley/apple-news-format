@@ -7,9 +7,9 @@ import * as Styles from "./styles";
 import { AdvertisementAutoPlacement as RootAdvertisementAutoPlacement } from "./advertisement-auto-placement";
 import { ArticleDocument as RootArticleDocument } from "./article-document";
 import { AutoPlacement as RootAutoPlacement } from "./auto-placement";
-import { ConditionalAutoPlacement as RootConditionalAutoPlacement } from "./conditional-auto-placement";
-import { DocumentStyle as RootDocumentStyle, ConditionalDocumentStyle as RootConditionalDocumentStyle } from "./document-style";
 import { AnyComponent as RootAnyComponent } from "./components/any-component";
+import { ConditionalAutoPlacement as RootConditionalAutoPlacement } from "./conditional-auto-placement";
+import { ConditionalDocumentStyle as RootConditionalDocumentStyle, DocumentStyle as RootDocumentStyle } from "./document-style";
 
 export namespace AppleNews {
   // Root
@@ -94,6 +94,7 @@ export namespace AppleNews {
 
   // Metadata
   export type CampaignData = Metadata.CampaignData;
+  export type Issue = Metadata.Issue;
   export type LinkedArticle = Metadata.LinkedArticle;
   export type Metadata = Metadata.Metadata;
 
