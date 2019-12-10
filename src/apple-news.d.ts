@@ -51,7 +51,7 @@ declare namespace AppleNews {
   export type Audio = Components.AudioAndVideo.Audio;
   export type EmbedWebVideo = Components.AudioAndVideo.EmbedWebVideo;
   export type Music = Components.AudioAndVideo.Music;
-  export type Video = Components.AudioAndVideo.EmbedWebVideo;
+  export type Video = Components.AudioAndVideo.Video;
   export type ARKit = Components.AugmentedReality.ARKit;
   export type GalleryItem = Components.GalleriesAndMosaics.GalleryItem;
   export type Gallery = Components.GalleriesAndMosaics.Gallery;
