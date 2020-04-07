@@ -1,24 +1,42 @@
-import {
-  Advertisements,
-  ArticleStructure,
-  AudioAndVideo,
-  AugmentedReality,
-  GalleriesAndMosaics,
-  Images,
-  Location,
-  SocialMedia,
-  Tables,
-  Text,
-} from ".";
+import * as Components from ".";
 
-export type AnyComponent =
-  | typeof Advertisements
-  | typeof ArticleStructure
-  | typeof AudioAndVideo
-  | typeof AugmentedReality
-  | typeof GalleriesAndMosaics
-  | typeof Images
-  | typeof Location
-  | typeof SocialMedia
-  | typeof Tables
-  | typeof Text;
+export type AnyComponent = Components.Advertisements.BannerAdvertisement
+ | Components.Advertisements.MediumRectangleAdvertisement
+ | Components.ArticleStructure.ArticleLink
+ | Components.ArticleStructure.Aside
+ | Components.ArticleStructure.Chapter
+ | Components.ArticleStructure.Container
+ | Components.ArticleStructure.Divider
+ | Components.ArticleStructure.Header
+ | Components.ArticleStructure.Section
+ | Components.AudioAndVideo.Audio
+ | Components.AudioAndVideo.EmbedWebVideo
+ | Components.AudioAndVideo.Music
+ | Components.AudioAndVideo.Video
+ | Components.AugmentedReality.ARKit
+ | Components.GalleriesAndMosaics.Gallery
+ | Components.GalleriesAndMosaics.Mosaic
+ | Components.Images.ArticleThumbnail
+ | Components.Images.Figure
+ | Components.Images.Image
+ | Components.Images.Logo
+ | Components.Images.Photo
+ | Components.Images.Portrait
+ | Components.Location.Map
+ | Components.Location.Place
+ | Components.SocialMedia.SocialMediaComponent
+ | Components.Tables.DataTable
+ | Components.Tables.HTMLTable
+ | Components.Text.ArticleTitle
+ | Components.Text.Author
+ | Components.Text.Body
+ | Components.Text.Byline
+ | Components.Text.Caption
+ | Components.Text.ConditionalText
+ | Components.Text.Heading
+ | Components.Text.Illustrator
+ | Components.Text.Intro
+ | Components.Text.Photographer
+ | Components.Text.PullQuote
+ | Components.Text.Quote
+ | Components.Text.Title;

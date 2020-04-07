@@ -1,12 +1,12 @@
 import { StrokeStyle } from "../../primitives";
-import { Component } from "../component";
+import { ContainerComponent } from "./container-component";
 
 /**
  * Signature/interface for a `Divider` object
  * @see https://developer.apple.com/documentation/apple_news/divider
- * @extends {Component}
+ * @extends {ContainerComponent}
  */
-export interface Divider extends Component {
+export interface Divider extends ContainerComponent {
   role: "divider";
   stroke?: StrokeStyle;
 }

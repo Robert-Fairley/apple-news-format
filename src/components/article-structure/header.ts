@@ -1,10 +1,10 @@
-import { Container } from "./container";
+import { ContainerComponent } from "./container-component";
 
 /**
  * Signature/interface for a `Header` object
  * @see https://developer.apple.com/documentation/apple_news/header
- * @extends {Container}
+ * @extends {ContainerComponent}
  */
-export interface Header extends Container {
+export interface Header extends ContainerComponent {
   role: "header";
 }

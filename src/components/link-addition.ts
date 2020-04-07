@@ -9,6 +9,6 @@ import { Addition } from "./addition";
  * @see https://developer.apple.com/documentation/apple_news/link
  * @extends {Addition}
  */
-export interface Link extends Addition {
+export interface LinkAddition extends Addition {
   URL: URI | IdentifierURI;
 }

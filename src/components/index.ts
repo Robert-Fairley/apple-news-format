@@ -10,11 +10,11 @@ import * as Tables from "./tables";
 import * as Text from "./text";
 
 export { Addition } from "./addition";
+export { LinkAddition } from "./link-addition";
 export { Behavior } from "./behavior";
 export { ComponentAnimation } from "./component-animation";
 export { ComponentLink } from "./component-link";
 export { Component } from "./component";
-export { Link } from "./link";
 export { Scene } from "./scene";
 export {
   Advertisements,
