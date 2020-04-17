@@ -1,10 +1,10 @@
-import { Container } from "./container";
+import { ContainerComponent } from "./container-component";
 
 /**
  * Signature/interface for an `Aside` object
  * @see https://developer.apple.com/documentation/apple_news/aside
- * @extends {Container}
+ * @extends {ContainerComponent}
  */
-export interface Aside extends Container {
+export interface Aside extends ContainerComponent {
   role: "aside";
 }

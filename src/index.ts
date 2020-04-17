@@ -30,11 +30,11 @@ export namespace AppleNews {
 
   // Components
   export type Addition = Components.Addition;
+  export type LinkAddition = Components.LinkAddition;
   export type Behavior = Components.Behavior;
   export type ComponentAnimation = Components.ComponentAnimation;
   export type ComponentLink = Components.ComponentLink;
   export type Component = Components.Component;
-  export type Link = Components.Link;
   export type Scene = Components.Scene;
   export type BannerAdvertisement = Components.Advertisements.BannerAdvertisement;
   export type MediumRectangleAdvertisement = Components.Advertisements.MediumRectangleAdvertisement;

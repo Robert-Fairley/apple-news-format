@@ -2,7 +2,7 @@ import {
   ComponentTextStyle,
   InlineTextStyle,
 } from "../../styles/text-styles";
-import { Addition } from "../addition";
+import { LinkAddition } from "../link-addition";
 import { ComponentBase } from "../component-base";
 import { ConditionalText } from "./conditional-text";
 
@@ -32,7 +32,7 @@ export interface TextComponent extends ComponentBase {
   role: TextComponentRole;
   format?: TextComponentFormat;
   text: string;
-  additions?: Addition[];
+  additions?: LinkAddition[];
   conditional?: ConditionalText[];
   inlineTextStyles?: InlineTextStyle[];
   textStyle?: ComponentTextStyle | string;

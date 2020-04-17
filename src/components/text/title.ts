@@ -9,5 +9,4 @@ import {
  */
 export interface Title extends TextComponent {
   role: "title";
-
 }
