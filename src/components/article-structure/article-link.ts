@@ -7,4 +7,5 @@ import { ContainerComponent } from "./container-component";
  */
 export interface ArticleLink extends ContainerComponent {
   role: "article_link";
+  articleIdentifier: string;
 }
