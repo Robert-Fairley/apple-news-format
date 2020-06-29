@@ -64,7 +64,8 @@ export interface Condition {
     maxColumns?: number; // Integer - Minimum: 1
     maxContentSizeCategory?: ConditionContentSizeCategory;
     maxSpecVersion?: string; // Apple News Version
-    maxViewportAspectRation?: number; // Unsigned Float
+    maxViewportAspectRatio?: number; // Unsigned Float
+    maxViewportWidth?: number; // Integer
     minColumns?: number; // Unsigned Integer
     minContentSizeCategory?: ConditionContentSizeCategory;
     minSpecVersion?: string; // Apple News Version
