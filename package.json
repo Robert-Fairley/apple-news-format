@@ -3,13 +3,15 @@
   "version": "0.2.3",
   "description": "Types for Apple News Format, including a small selection of string validation functions",
   "main": "lib",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "./node_modules/.bin/tsc",
     "test": "./node_modules/.bin/ts-mocha ./tests/**/*.test.ts",
     "lint": "./node_modules/.bin/tslint ./src/**/*.ts",
     "prepublish": "npm run lint && npm test",
     "prepublishOnly": "npm run build",
-    "postinstall": "if [ ! -d node_modules/apple-news-format/lib ]; then npm run build; fi",
     "clean": "rm -rf lib"
   },
   "husky": {
