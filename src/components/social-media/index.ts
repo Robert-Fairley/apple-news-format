@@ -4,6 +4,7 @@ import { Component } from "../component";
 type SocialMediaRole
   = "instagram"
   | "facebook_post"
+  | "tiktok"
   | "tweet";
 
 /**
