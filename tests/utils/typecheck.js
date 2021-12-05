@@ -17,11 +17,12 @@ function typecheck(filepath, options = DefaultOptions) {
 
 function formatDiagnostics(diagnostics) {
   return diagnostics.map((diagnostic) => {
-    const { messageText: info, file } = diagnostic;
+    const { messageText, file, code, category } = diagnostic;
     const result = {
-      message: info.messageText,
-      category: info.category,
-      code: info.code,
+      code,
+      file,
+      messageText,
+      category,
     };
     if (file) {
       const { line, character } = file.getLineAndCharacterOfPosition(

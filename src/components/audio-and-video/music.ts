@@ -8,5 +8,7 @@ import { AudioVideoComponent } from "./audio-video-component";
  */
 export interface Music extends AudioVideoComponent {
   role: "music";
+  accessibilityCaption?: string;
+  caption?: string;
   imageURL: URI;
 }

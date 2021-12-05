@@ -36,8 +36,7 @@ export namespace AppleNews {
   export type ComponentLink = Components.ComponentLink;
   export type Component = Components.Component;
   export type Scene = Components.Scene;
-  export type BannerAdvertisement = Components.Advertisements.BannerAdvertisement;
-  export type MediumRectangleAdvertisement = Components.Advertisements.MediumRectangleAdvertisement;
+  export type ReplicaAdvertisement = Components.Advertisements.ReplicaAdvertisement;
   export type ArticleLink = Components.ArticleStructure.ArticleLink;
   export type Aside = Components.ArticleStructure.Aside;
   export type Chapter = Components.ArticleStructure.Chapter;

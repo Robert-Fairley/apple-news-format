@@ -7,4 +7,5 @@ export { Container } from "./container";
 export { Divider } from "./divider";
 export { Header } from "./header";
 export { HorizontalStackDisplay } from "./horizontal-stack-display";
+export { LinkButton } from "./link-button";
 export { Section } from "./section";

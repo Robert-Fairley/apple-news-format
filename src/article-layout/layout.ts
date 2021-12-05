@@ -5,6 +5,6 @@
 export interface Layout {
     columns: number; // Integer - Minimum: 1
     width: number; // Integer - Minimum 1
-    gutter?: number; // Unsigned Integer
-    margin?: number; // Unsigned Integer
+    gutter?: number; // Integer
+    margin?: number; // Integer
 }

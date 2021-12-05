@@ -1,7 +1,8 @@
 import * as Components from ".";
 
-export type AnyComponent = Components.Advertisements.BannerAdvertisement
- | Components.Advertisements.MediumRectangleAdvertisement
+export type AnyComponent
+ = Components.Addition
+ | Components.Advertisements.ReplicaAdvertisement
  | Components.ArticleStructure.ArticleLink
  | Components.ArticleStructure.Aside
  | Components.ArticleStructure.Chapter
@@ -13,6 +14,7 @@ export type AnyComponent = Components.Advertisements.BannerAdvertisement
  | Components.AudioAndVideo.EmbedWebVideo
  | Components.AudioAndVideo.Music
  | Components.AudioAndVideo.Video
+ | Components.AudioAndVideo.Podcast
  | Components.AugmentedReality.ARKit
  | Components.GalleriesAndMosaics.Gallery
  | Components.GalleriesAndMosaics.Mosaic
@@ -25,6 +27,10 @@ export type AnyComponent = Components.Advertisements.BannerAdvertisement
  | Components.Location.Map
  | Components.Location.Place
  | Components.SocialMedia.SocialMediaComponent
+ | Components.SocialMedia.FacebookPost
+ | Components.SocialMedia.Instagram
+ | Components.SocialMedia.TikTok
+ | Components.SocialMedia.Tweet
  | Components.Tables.DataTable
  | Components.Tables.HTMLTable
  | Components.Text.ArticleTitle

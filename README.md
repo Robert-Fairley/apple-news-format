@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/Robert-Fairley/apple-news-format.svg?style=svg&circle-token=6f3e22cb14ceb409d7241efc628ccdef34b810f8)](https://circleci.com/gh/Robert-Fairley/apple-news-format)
 
+**Current to ANF version: `1.17.0`**
+
 This is a collection of TypeScript types for the Apple News Format fields, metadata, and components.
 
 Included are a small selection of validation functions for certain fields that contain restrictions on the strings that are passed in.

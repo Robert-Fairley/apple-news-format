@@ -1,3 +1,4 @@
+import { CollectionDisplay, HorizontalStackDisplay } from ".";
 import { ContainerComponent } from "./container-component";
 
 /**
@@ -8,4 +9,6 @@ import { ContainerComponent } from "./container-component";
 export interface ArticleLink extends ContainerComponent {
   role: "article_link";
   articleIdentifier: string;
+  allowAutoplacedAds?: boolean;
+  contentDisplay?: CollectionDisplay | HorizontalStackDisplay;
 }
