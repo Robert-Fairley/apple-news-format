@@ -21,10 +21,10 @@ export interface Metadata {
   generatorIdentifier?: string;
   generatorName?: string;
   generatorVersion?: string;
+  issue?: Issue;
   keywords?: string[];
   links?: LinkedArticle[];
   thumbnailURL?: string; // ThumbnailURI
   transparentToolbar?: boolean;
   videoURL?: URI;
-  issue?: Issue;
 }

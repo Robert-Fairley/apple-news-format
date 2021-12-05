@@ -36,8 +36,7 @@ declare namespace AppleNews {
   export type ComponentLink = Components.ComponentLink;
   export type Component = Components.Component;
   export type Scene = Components.Scene;
-  export type BannerAdvertisement = Components.Advertisements.BannerAdvertisement;
-  export type MediumRectangleAdvertisement = Components.Advertisements.MediumRectangleAdvertisement;
+  export type ReplicaAdvertisement = Components.Advertisements.ReplicaAdvertisement;
   export type ArticleLink = Components.ArticleStructure.ArticleLink;
   export type Aside = Components.ArticleStructure.Aside;
   export type Chapter = Components.ArticleStructure.Chapter;
@@ -67,9 +66,10 @@ declare namespace AppleNews {
   export type MapSpan = Components.Location.MapSpan;
   export type Map = Components.Location.Map;
   export type Place = Components.Location.Place;
-  export type Instagram = Components.SocialMedia.SocialMediaComponent;
-  export type Facebook = Components.SocialMedia.SocialMediaComponent;
-  export type Tweet = Components.SocialMedia.SocialMediaComponent;
+  export type Instagram = Components.SocialMedia.Instagram;
+  export type FacebookPost = Components.SocialMedia.FacebookPost;
+  export type TikTok = Components.SocialMedia.TikTok;
+  export type Tweet = Components.SocialMedia.Tweet;
   export type DataDescriptor = Components.Tables.DataDescriptor;
   export type DataFormat = Components.Tables.DataFormat;
   export type DataTableSorting = Components.Tables.DataTableSorting;

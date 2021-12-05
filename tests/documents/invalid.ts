@@ -1,3 +1,4 @@
+import { AnyComponent } from "../../src/components/any-component";
 import AppleNews from "../../src/index";
 
 const document: AppleNews.ArticleDocument = {

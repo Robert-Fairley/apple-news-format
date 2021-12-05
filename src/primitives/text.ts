@@ -117,3 +117,11 @@ export type VerticalAlignment
 export interface TextDecoration {
     color?: Color;
 }
+
+/**
+ * Signature/interface for a `textFormat` field
+ */
+export type TextFormat
+    = "html"
+    | "markdown"
+    | "none";
