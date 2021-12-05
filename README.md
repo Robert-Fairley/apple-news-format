@@ -10,6 +10,13 @@ Included are a small selection of validation functions for certain fields that c
 
 ## Usage
 
+Install from npm using your desired package manager
+
+```sh
+
+npm install apple-news-format
+```
+
 #### TypeScript
 
 Simply import the AppleNews namespace from the package.
