@@ -9,7 +9,7 @@ import { AudioVideoComponent } from "./audio-video-component";
 export interface Video extends AudioVideoComponent {
   role: "video";
   accessibilityCaption?: string;
-  aspectRatio: number; // Float
+  aspectRatio?: number; // Float
   caption?: string;
   stillURL?: URI;
 }
