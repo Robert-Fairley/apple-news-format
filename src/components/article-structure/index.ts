@@ -5,6 +5,7 @@ export { CollectionDisplay } from "./collection-display";
 export { ConditionalContainer } from "./conditional-container";
 export { Container } from "./container";
 export { Divider } from "./divider";
+export { FlexibleSpacer } from "./flexible-spacer";
 export { Header } from "./header";
 export { HorizontalStackDisplay } from "./horizontal-stack-display";
 export { LinkButton } from "./link-button";
