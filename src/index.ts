@@ -9,7 +9,10 @@ import { ArticleDocument as RootArticleDocument } from "./article-document";
 import { AutoPlacement as RootAutoPlacement } from "./auto-placement";
 import { AnyComponent as RootAnyComponent } from "./components/any-component";
 import { ConditionalAutoPlacement as RootConditionalAutoPlacement } from "./conditional-auto-placement";
-import { ConditionalDocumentStyle as RootConditionalDocumentStyle, DocumentStyle as RootDocumentStyle } from "./document-style";
+import {
+  ConditionalDocumentStyle as RootConditionalDocumentStyle,
+  DocumentStyle as RootDocumentStyle,
+} from "./document-style";
 
 export namespace AppleNews {
   // Root
@@ -25,7 +28,8 @@ export namespace AppleNews {
   export type Anchor = ArticleLayout.Anchor;
   export type AutoPlacementLayout = ArticleLayout.AutoPlacementLayout;
   export type ComponentLayout = ArticleLayout.ComponentLayout;
-  export type ConditionalComponentLayout = ArticleLayout.ConditionalComponentLayout;
+  export type ConditionalComponentLayout =
+    ArticleLayout.ConditionalComponentLayout;
   export type Layout = ArticleLayout.Layout;
 
   // Components
@@ -36,16 +40,21 @@ export namespace AppleNews {
   export type ComponentLink = Components.ComponentLink;
   export type Component = Components.Component;
   export type Scene = Components.Scene;
-  export type ReplicaAdvertisement = Components.Advertisements.ReplicaAdvertisement;
+  export type ReplicaAdvertisement =
+    Components.Advertisements.ReplicaAdvertisement;
   export type ArticleLink = Components.ArticleStructure.ArticleLink;
   export type Aside = Components.ArticleStructure.Aside;
   export type Chapter = Components.ArticleStructure.Chapter;
   export type CollectionDisplay = Components.ArticleStructure.CollectionDisplay;
-  export type ConditionalContainer = Components.ArticleStructure.ConditionalContainer;
+  export type ConditionalContainer =
+    Components.ArticleStructure.ConditionalContainer;
   export type Container = Components.ArticleStructure.Container;
   export type Divider = Components.ArticleStructure.Divider;
+  export type FlexibleSpacer = Components.ArticleStructure.FlexibleSpacer;
   export type Header = Components.ArticleStructure.Header;
-  export type HorizontalStackDisplay = Components.ArticleStructure.HorizontalStackDisplay;
+  export type HorizontalStackDisplay =
+    Components.ArticleStructure.HorizontalStackDisplay;
+  export type LinkButton = Components.ArticleStructure.LinkButton;
   export type Section = Components.ArticleStructure.Section;
   export type Audio = Components.AudioAndVideo.Audio;
   export type EmbedWebVideo = Components.AudioAndVideo.EmbedWebVideo;
@@ -122,10 +131,14 @@ export namespace AppleNews {
   export type Border = Styles.ComponentStyles.Border;
   export type ColorStrop = Styles.ComponentStyles.ColorStop;
   export type ComponentStyle = Styles.ComponentStyles.ComponentStyle;
-  export type ConditionalComponentStyle = Styles.ComponentStyles.ConditionalComponentStyle;
-  export type ConditionalTableCellStyle = Styles.ComponentStyles.ConditionalTableCellStyle;
-  export type ConditionalTableColumnStyle = Styles.ComponentStyles.ConditionalTableColumnStyle;
-  export type ConditionalTableRowStyle = Styles.ComponentStyles.ConditionalTableRowStyle;
+  export type ConditionalComponentStyle =
+    Styles.ComponentStyles.ConditionalComponentStyle;
+  export type ConditionalTableCellStyle =
+    Styles.ComponentStyles.ConditionalTableCellStyle;
+  export type ConditionalTableColumnStyle =
+    Styles.ComponentStyles.ConditionalTableColumnStyle;
+  export type ConditionalTableRowStyle =
+    Styles.ComponentStyles.ConditionalTableRowStyle;
   export type CornerMask = Styles.ComponentStyles.CornerMask;
   export type Fill = Styles.ComponentStyles.Fill;
   export type GradientFill = Styles.ComponentStyles.GradientFill;
@@ -141,7 +154,8 @@ export namespace AppleNews {
   export type TableStyle = Styles.ComponentStyles.TableRowStyle;
   export type VideoFill = Styles.ComponentStyles.VideoFill;
   export type ComponentTextStyle = Styles.TextStyles.ComponentTextStyle;
-  export type ConditionalComponentTextStyle = Styles.TextStyles.ConditionalComponentTextStyle;
+  export type ConditionalComponentTextStyle =
+    Styles.TextStyles.ConditionalComponentTextStyle;
   export type ConditionalTextStyle = Styles.TextStyles.ConditionalTextStyle;
   export type DropCapStyle = Styles.TextStyles.DropCapStyle;
   export type InlineTextStyle = Styles.TextStyles.InlineTextStyle;
