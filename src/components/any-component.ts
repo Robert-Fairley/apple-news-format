@@ -8,6 +8,7 @@ export type AnyComponent =
   | Components.ArticleStructure.Chapter
   | Components.ArticleStructure.Container
   | Components.ArticleStructure.Divider
+  | Components.ArticleStructure.FlexibleSpacer
   | Components.ArticleStructure.Header
   | Components.ArticleStructure.LinkButton
   | Components.ArticleStructure.Section
