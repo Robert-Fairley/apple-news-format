@@ -17,6 +17,7 @@ export const SupportedFileExtensions = [
     "mp3",
     "mp4",
     "ac3",
+    "usdz",
 ] as const;
 
 export type SupportedUrlFileExtension = typeof SupportedFileExtensions[number];
