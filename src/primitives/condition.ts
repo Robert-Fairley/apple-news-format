@@ -56,6 +56,15 @@ export type ConditionPreferredColorScheme
     | "dark";
 
 /**
+ * Expression of possible values for condition `territory` field
+ */
+export type ConditionTerritory
+    = "AU"
+    | "CA"
+    | "GB"
+    | "US";
+
+/**
  * Signature/interface for a `Condition` object
  * @see https://developer.apple.com/documentation/apple_news/condition
  */
@@ -74,6 +83,7 @@ export interface Condition {
     platform?: ConditionPlatform;
     preferredColorScheme?: ConditionPreferredColorScheme;
     subscriptionStatus?: ConditionSubscriptionStatus;
+    territory?: ConditionTerritory;
     verticalSizeClass?: ConditionSizeClass;
     viewLocation?: ConditionViewLocation;
 }
