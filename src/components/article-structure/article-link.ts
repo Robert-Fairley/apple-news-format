@@ -8,7 +8,7 @@ import { ContainerComponent } from "./container-component";
  */
 export interface ArticleLink extends ContainerComponent {
   role: "article_link";
-  articleIdentifier: string;
+  articleIdentifier?: string; // If articleIdentifier is not provided, the identifier of the article is used.
   allowAutoplacedAds?: boolean;
   contentDisplay?: CollectionDisplay | HorizontalStackDisplay;
 }
