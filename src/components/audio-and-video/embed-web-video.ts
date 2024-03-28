@@ -10,5 +10,5 @@ export interface EmbedWebVideo extends AudioVideoComponent {
   role: "embedwebvideo" | "embedvideo";
   aspectRatio?: number; // Float
   accessibilityCaption?: string;
-  stillURL?: URI;
+  caption?: string;
 }
