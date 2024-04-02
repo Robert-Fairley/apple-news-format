@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/Robert-Fairley/apple-news-format.svg?style=svg&circle-token=6f3e22cb14ceb409d7241efc628ccdef34b810f8)](https://circleci.com/gh/Robert-Fairley/apple-news-format)
 
-**Current to ANF version: `1.17.0`**
+**Current to ANF version: `1.26.0`**
 
 This is a collection of TypeScript types for the Apple News Format fields, metadata, and components.
 
@@ -13,7 +13,6 @@ Included are a small selection of validation functions for certain fields that c
 Install from npm using your desired package manager
 
 ```sh
-
 npm install apple-news-format
 ```
 
@@ -39,8 +38,9 @@ type Body = Components.Text.Body;
 function buildImageComponent(path: string): Image {
   const imagePath: URI = URI(path);
 
-  if (!imagePath)
+  if (!imagePath) {
     throw new TypeError("Image URI was invalid!");
+  }
 
   const imageComponent: Image = {
     role: "image",
@@ -59,27 +59,26 @@ below by targeting the specific modules.
 ```javascript
 const { URI } = require("apple-news-format/lib/primitives");
 // OR require("apple-news-format/lib/primitives/uri");
-
 ```
 
 ## Validation Functions
 
-* [Color](src/primitives/color.ts)
-  * Tests for a valid color string. Ex: `"#RRGGBB"`
-* [SupportedUnits](src/primitives/supported-units.ts)
-  * Tests for a valid unit type. Ex: `"80vw"`
-* [URI](src/primitives/uri.ts)
-  * Tests for a properly formed URI, and valid media types. Ex: `"bundle://a-video.mp4"`
-* [Identifier URI](src/primitives/identifier-uri.ts)
-  * Tests for a properly formed internal URI targeting other parts of the document. Ex: `"#info"`
-* [ListItemStyleCharacter](src/styles/text-styles/list-item-style.ts)
-  * Tests for a single valid character for use in lists. Ex: `"•"`
-* [DateTime](src/primitives/date-time.ts)
-  * Tests for a valid ISO 8601 date time string
-  * TODO: Make test more explicit
-* [HTMLTableData](src/components/tables/html-table.ts)
-  * Tests for a valid string containing and opening and closing `<table>` tag.
-  * TODO: Test for appropriate children elements: `<thead>`, `<tbody>`, `<tr>`, `<td>`, etc.
+- [Color](src/primitives/color.ts)
+  - Tests for a valid color string. Ex: `"#RRGGBB"`
+- [SupportedUnits](src/primitives/supported-units.ts)
+  - Tests for a valid unit type. Ex: `"80vw"`
+- [URI](src/primitives/uri.ts)
+  - Tests for a properly formed URI, and valid media types. Ex: `"bundle://a-video.mp4"`
+- [Identifier URI](src/primitives/identifier-uri.ts)
+  - Tests for a properly formed internal URI targeting other parts of the document. Ex: `"#info"`
+- [ListItemStyleCharacter](src/styles/text-styles/list-item-style.ts)
+  - Tests for a single valid character for use in lists. Ex: `"•"`
+- [DateTime](src/primitives/date-time.ts)
+  - Tests for a valid ISO 8601 date time string
+  - TODO: Make test more explicit
+- [HTMLTableData](src/components/tables/html-table.ts)
+  - Tests for a valid string containing and opening and closing `<table>` tag.
+  - TODO: Test for appropriate children elements: `<thead>`, `<tbody>`, `<tr>`, `<td>`, etc.
 
 ## License
 
