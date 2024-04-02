@@ -8,6 +8,7 @@ export const SupportedFileExtensions = [
     "png",
     "jpg",
     "jpeg",
+    "webp", // Animated image - animation will be removed
     "gif",
     "alac",
     "heac",
