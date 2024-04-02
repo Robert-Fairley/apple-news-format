@@ -3,6 +3,7 @@ export {
     VerticalAlignment,
 } from "./alignment";
 export { Color } from "./color";
+export { ComponentShadowOffset } from "./component-shadow-offset";
 export {
     Condition,
     ConditionContentSizeCategory,
@@ -14,9 +15,8 @@ export {
 export { DateTime } from "./date-time";
 export { IdentifierURI } from "./identifier-uri";
 export { Margin } from "./margin";
-export { Offset } from "./offset";
 export { Padding } from "./padding";
-export { Shadow } from "./shadow";
+export { TextShadowOffset } from "./text-shadow-offset";
 export { SupportedUnits } from "./supported-units";
 export { StrokeStyle } from "./stroke-style";
 export {

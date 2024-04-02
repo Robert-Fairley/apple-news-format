@@ -1,5 +1,6 @@
 import { Color } from "../../primitives";
 import { Border } from "./border";
+import { ComponentShadow } from "./component-shadow";
 import { CornerMask } from "./corner-mask";
 import { Fill } from "./fill";
 import { GradientFill } from "./gradient-fill";
@@ -19,4 +20,5 @@ export interface ComponentStyleBase {
   mask?: CornerMask;
   opacity?: number; // Float 0.0 - 1.0
   tableStyle?: TableStyle; // @todo
+  shadow?: ComponentShadow
 }

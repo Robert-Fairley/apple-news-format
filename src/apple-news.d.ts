@@ -108,12 +108,12 @@ declare namespace AppleNews {
   export type HorizontalAlignment = Primitives.HorizontalAlignment;
   export type Color = Primitives.Color;
   export type Condition = Primitives.Condition;
+  export type ComponentShadowOffset = Primitives.ComponentShadowOffset;
   export type DateTime = Primitives.DateTime;
   export type IdentifierURI = Primitives.IdentifierURI;
   export type Margin = Primitives.Margin;
-  export type Offset = Primitives.Offset;
   export type Padding = Primitives.Padding;
-  export type Shadow = Primitives.Shadow;
+  export type TextShadowOffset = Primitives.TextShadowOffset;
   export type StrokeStyle = Primitives.StrokeStyle;
   export type SupportedUnits = Primitives.SupportedUnits;
   export type FontStyle = Primitives.FontStyle;
@@ -127,6 +127,7 @@ declare namespace AppleNews {
   // Styles
   export type Border = Styles.ComponentStyles.Border;
   export type ColorStrop = Styles.ComponentStyles.ColorStop;
+  export type ComponentShadow = Styles.ComponentStyles.ComponentShadow;
   export type ComponentStyle = Styles.ComponentStyles.ComponentStyle;
   export type ConditionalComponentStyle = Styles.ComponentStyles.ConditionalComponentStyle;
   export type ConditionalTableCellStyle = Styles.ComponentStyles.ConditionalTableCellStyle;
@@ -152,6 +153,7 @@ declare namespace AppleNews {
   export type DropCapStyle = Styles.TextStyles.DropCapStyle;
   export type InlineTextStyle = Styles.TextStyles.InlineTextStyle;
   export type ListItemStyle = Styles.TextStyles.ListItemStyle;
+  export type TextShadow = Styles.TextStyles.TextShadow;
   export type TextStrokeStyle = Styles.TextStyles.TextStrokeStyle;
   export type TextStyle = Styles.TextStyles.TextStyle;
 }
