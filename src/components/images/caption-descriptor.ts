@@ -13,5 +13,9 @@ export interface CaptionDescriptor {
   text: string;
   additions?: Addition[];
   format?: TextComponentFormat;
+  /**
+   * Apple News Format ignores InlineTextStyles when format is set to html or markdown.
+   */
+  inlineTextStyles?: InlineTextStyle[];
   textStyle?: ComponentTextStyle | string;
 }
