@@ -5,4 +5,5 @@
 export interface Issue {
     identifier: string;
     order?: number; // Integer | Float
+    tocByline?: string;
 }
