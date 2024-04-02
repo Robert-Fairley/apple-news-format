@@ -43,7 +43,9 @@ export namespace AppleNews {
   export type ScaleFadeAnimation = Components.ComponentAnimations.ScaleFadeAnimation;
   export type ComponentLink = Components.ComponentLink;
   export type Component = Components.Component;
-  export type Scene = Components.Scene;
+  export type Scene = Components.Scenes.Scene;
+  export type FadingStickyHeader = Components.Scenes.FadingStickyHeader;
+  export type ParallaxScaleHeader = Components.Scenes.ParallaxScaleHeader;
   export type ReplicaAdvertisement =
     Components.Advertisements.ReplicaAdvertisement;
   export type ArticleLink = Components.ArticleStructure.ArticleLink;
