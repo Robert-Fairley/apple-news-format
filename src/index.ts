@@ -36,7 +36,11 @@ export namespace AppleNews {
   export type Addition = Components.Addition;
   export type LinkAddition = Components.LinkAddition;
   export type Behavior = Components.Behavior;
-  export type ComponentAnimation = Components.ComponentAnimation;
+  export type ComponentAnimation = Components.ComponentAnimations.ComponentAnimation;
+  export type AppearAnimation = Components.ComponentAnimations.AppearAnimation;
+  export type FadeInAnimation = Components.ComponentAnimations.FadeInAnimation;
+  export type MoveInAnimation = Components.ComponentAnimations.MoveInAnimation;
+  export type ScaleFadeAnimation = Components.ComponentAnimations.ScaleFadeAnimation;
   export type ComponentLink = Components.ComponentLink;
   export type Component = Components.Component;
   export type Scene = Components.Scene;
