@@ -14,6 +14,7 @@ export type BannerType
 /**
  * Signature/interface for an `AdvertisementAutoPlacement` object
  * @see https://developer.apple.com/documentation/apple_news/advertisementautoplacement
+ * @deprecated
  * @extends {AutoPlacementBase}
  */
 export interface AdvertisementAutoPlacement extends AutoPlacementBase {
