@@ -7,7 +7,7 @@ import { RecordStore } from "./record-store";
  */
 export type DataOrientation
   = "vertical"
-  | "horizontal";
+  | "horizontal"; // Default
 
 /**
  * Signature/interface for a `DataTable` object
