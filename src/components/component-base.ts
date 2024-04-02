@@ -12,7 +12,6 @@ export interface ComponentBase {
   anchor?: Anchor;
   animation?: ComponentAnimation;
   behavior?: Behavior;
-  allowAutoplacedAds?: boolean;
   hidden?: boolean;
   identifier?: string;
   layout?: ComponentLayout | string;
