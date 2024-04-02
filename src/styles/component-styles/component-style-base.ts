@@ -11,7 +11,6 @@ import { VideoFill } from "./video-fill";
 /**
  * Signature/interface for a `ComponentStyle` base object
  * @see https://developer.apple.com/documentation/apple_news/componentstyle
- * @extends {ComponentStyleBase}
  */
 export interface ComponentStyleBase {
   backgroundColor?: Color;
