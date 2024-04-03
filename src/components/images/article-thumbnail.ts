@@ -22,7 +22,7 @@ export interface ArticleThumbnail extends Omit<ImageComponent, 'URL'> {
   /**
    * @deprecated The thumbnail of the article referenced in the ArticleLink component is used.
    */
-  URL: URI;
+  URL?: URI;
   /**
    * @deprecated 
    */
