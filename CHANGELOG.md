@@ -24,6 +24,7 @@ This should bring the typings up to date with ANF 1.26.0 in regards to the docum
   - "usdz" for `ARKit` support
   - "webp" for images - Animated image format with the animation removed when used
 - Updated `ArticleThumbnail` extension to omit `URL` property to re-declare as deprecated
+- Updated `ArticleTitle` extension to omit `text` property to re-declare as optional
 - Marked `URL`, `aspectRatio`, `fillMode`, `horizontalAlignment` and `verticalAlignment` on `ArticleThumbnail` as deprecated
 - Updated `URL` property on `ArticleThumbnail` to optional due to deprecation
 - Added optional `inlineTextStyles` property to `CaptionDescriptor`

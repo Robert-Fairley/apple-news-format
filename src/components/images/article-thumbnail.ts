@@ -17,7 +17,7 @@ export type ArticleThumbnailFillMode
  * @see https://developer.apple.com/documentation/apple_news/articlethumbnail
  * @extends {ImageComponent}
  */
-export interface ArticleThumbnail extends Omit<ImageComponent, 'URL'> {
+export interface ArticleThumbnail extends Omit<ImageComponent, "URL"> {
   role: "article_thumbnail";
   /**
    * @deprecated The thumbnail of the article referenced in the ArticleLink component is used.
