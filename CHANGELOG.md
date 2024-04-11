@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.1
+
+### Patch Changes
+
+- [#2](https://github.com/sevenwestmedia-labs/apple-news-format/pull/2) [`30e7f87`](https://github.com/sevenwestmedia-labs/apple-news-format/commit/30e7f87fd5dcbb8795079b2c2ddff858a5fd2e04) Thanks [@bennettp123](https://github.com/bennettp123)! - test publish
+
 ## v1.1.0 - April 4, 2024
 
 This should bring the typings up to date with ANF 1.26.0 in regards to the documentation supplied by Apple
