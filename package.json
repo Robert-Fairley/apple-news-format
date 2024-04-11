@@ -1,6 +1,6 @@
 {
   "name": "@wanews/apple-news-format",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Types for Apple News Format, including a small selection of string validation functions",
   "main": "lib",
   "files": [
