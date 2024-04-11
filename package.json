@@ -21,6 +21,11 @@
       "pre-push": "npm run lint && npm test"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sevenwestmedia-labs/apple-news-format.git"
+  },
+  "homepage": "https://github.com/sevenwestmedia-labs/apple-news-format#readme",
   "keywords": [
     "apple news",
     "apple-news",
@@ -34,8 +39,7 @@
     "typescript"
   ],
   "author": {
-    "name": "Robert Fairley",
-    "email": "rrafairley@gmail.com"
+    "name": "Robert Fairley"
   },
   "license": "MIT",
   "devDependencies": {
