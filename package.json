@@ -13,7 +13,7 @@
     "prepublish": "npm run lint && npm test",
     "prepublishOnly": "npm run build",
     "clean": "rm -rf lib",
-    "release": "changeset publish && npm publish && git push --tags"
+    "release": "changeset publish && git push --tags"
   },
   "husky": {
     "hooks": {
