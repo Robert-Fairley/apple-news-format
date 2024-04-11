@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.2
+
+### Patch Changes
+
+- [#5](https://github.com/sevenwestmedia-labs/apple-news-format/pull/5) [`dfa4570`](https://github.com/sevenwestmedia-labs/apple-news-format/commit/dfa45704e16cebef1231b0eaaf6b259bab75957a) Thanks [@bennettp123](https://github.com/bennettp123)! - testing the release process
+
 ## 2.0.1
 
 ### Patch Changes
