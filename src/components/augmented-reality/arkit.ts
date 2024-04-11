@@ -1,3 +1,4 @@
+import { URI } from "../../primitives";
 import { Component } from "../component";
 
 /**
@@ -8,6 +9,7 @@ import { Component } from "../component";
 export interface ARKit extends Component {
   caption: string;
   role: "arkit";
+  URL: URI;
   accessibilityCaption?: string;
   explicitContent?: boolean;
 }

@@ -5,7 +5,7 @@ import { ListItemStyleCharacter } from "../src/styles/text-styles/list-item-styl
 
 describe("ListItemStyleCharacter: Validation Lambda", () => {
 
-  it("Should return the valid character", (done: MochaDone) => {
+  it("Should return the valid character", (done: Mocha.Done) => {
 
     const validChars: string[] = [
       "•",
@@ -29,7 +29,7 @@ describe("ListItemStyleCharacter: Validation Lambda", () => {
     done();
   });
 
-  it("Should return undefined when passed an invalid character", (done: MochaDone) => {
+  it("Should return undefined when passed an invalid character", (done: Mocha.Done) => {
 
     const invalidChars: string[] = [
       "»»»",

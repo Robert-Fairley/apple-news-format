@@ -1,5 +1,6 @@
 import { Color } from "../../primitives";
 import { Border } from "./border";
+import { ComponentShadow } from "./component-shadow";
 import { CornerMask } from "./corner-mask";
 import { Fill } from "./fill";
 import { GradientFill } from "./gradient-fill";
@@ -10,7 +11,6 @@ import { VideoFill } from "./video-fill";
 /**
  * Signature/interface for a `ComponentStyle` base object
  * @see https://developer.apple.com/documentation/apple_news/componentstyle
- * @extends {ComponentStyleBase}
  */
 export interface ComponentStyleBase {
   backgroundColor?: Color;
@@ -19,4 +19,5 @@ export interface ComponentStyleBase {
   mask?: CornerMask;
   opacity?: number; // Float 0.0 - 1.0
   tableStyle?: TableStyle; // @todo
+  shadow?: ComponentShadow
 }

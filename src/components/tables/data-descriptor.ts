@@ -20,7 +20,7 @@ export type DataType
 export interface DataDescriptor {
   dataType: DataType;
   key: string;
+  label: FormattedText | string;
   format?: DataFormat;
   identifier?: string;
-  label: FormattedText | string;
 }

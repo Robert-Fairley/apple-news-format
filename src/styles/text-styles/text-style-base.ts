@@ -4,12 +4,12 @@ import {
     FontStyle,
     FontWeight,
     FontWidth,
-    Shadow,
     TextDecoration,
     TextTransform,
     TextVerticalAlignment,
 } from "../../primitives";
 import { ListItemStyle } from "./list-item-style";
+import { TextShadow } from "./text-shadow";
 import { TextStrokeStyle } from "./text-stroke-style";
 
 /**
@@ -28,7 +28,7 @@ export interface TextStyleBase {
     strikethrough?: TextDecoration | boolean;
     stroke?: TextStrokeStyle | "none";
     textColor?: Color;
-    textShadow?: Shadow | "none";
+    textShadow?: TextShadow | "none";
     textTransform?: TextTransform;
     tracking?: number; // Integer | Float
     underline?: TextDecoration | boolean;

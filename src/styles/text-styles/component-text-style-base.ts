@@ -17,8 +17,32 @@ type TextAlignment
 export interface ComponentTextStyleBase extends TextStyleBase {
     dropCapStyle?: DropCapStyle | "none";
     firstLineIndent?: number; // Integer
+    /**
+     *  Available in iOS 13, iPadOS 13, and macOS 10.15.
+     */ 
+    fontScaling?: boolean; 
     hangingPunctuation?: boolean;
     hyphenation?: boolean;
+    /**
+     *  Available in iOS 17, iPadOS 17, and macOS 14 beta release.
+     */ 
+    hyphenationMinimumCharactersAfter?: number; // Integer
+    /**
+     *  Available in iOS 17, iPadOS 17, and macOS 14 beta release.
+     */ 
+    hyphenationMinimumCharactersBefore?: number; // Integer
+    /**
+     *  Available in iOS 17, iPadOS 17, and macOS 14 beta release.
+     */
+    hyphenationMinimumWordLength?: number; // Integer
+    /**
+     *  Available in iOS 17, iPadOS 17, and macOS 14 beta release.
+     */
+    hyphenationZone?: number; // Integer
+    /**
+     *  Available in iOS 17, iPadOS 17, and macOS 14 beta release.
+     */
+    lineBalancing?: boolean; 
     lineHeight?: number; // Integer
     linkStyle?: TextStyle;
     paragraphSpacingAfter?: number; // Integer

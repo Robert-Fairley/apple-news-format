@@ -5,7 +5,7 @@ import { DateTime } from "../src/primitives/date-time";
 
 describe("DateTime: Validation Lambda", () => {
 
-  it("Should return the valid date-time string", (done: MochaDone) => {
+  it("Should return the valid date-time string", (done: Mocha.Done) => {
 
     const validStrs: string[] = [
       "2019-04-20T11:11:11Z",
@@ -20,7 +20,7 @@ describe("DateTime: Validation Lambda", () => {
     done();
   });
 
-  it("Should return undefined when passed an invalid string", (done: MochaDone) => {
+  it("Should return undefined when passed an invalid string", (done: Mocha.Done) => {
 
     const invalidStrs: string[] = [
       "20190416",

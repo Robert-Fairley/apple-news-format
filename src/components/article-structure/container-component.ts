@@ -11,6 +11,7 @@ import { HorizontalStackDisplay } from "./horizontal-stack-display";
  */
 export interface ContainerComponent extends Component {
   additions?: ComponentLink[];
+  allowAutoplacedAds?: boolean;
   conditional?: ConditionalContainer | ConditionalContainer[];
   contentDisplay?: CollectionDisplay | HorizontalStackDisplay;
   components?: AnyComponent[];

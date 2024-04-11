@@ -1,13 +1,14 @@
 import { Color } from "./color";
-import { Offset } from "./offset";
+import { ComponentShadowOffset } from "./component-shadow-offset";
+import { SupportedUnits } from "./supported-units";
+import { TextShadowOffset } from "./text-shadow-offset";
 
 /**
- * Signature/interface for a `Shadow` object
- * @see https://developer.apple.com/documentation/apple_news/shadow
+ * Signature/interface for a `Shadow` base object
  */
 export interface Shadow {
     color: Color;
-    radius: number;
-    offset?: Offset;
-    opacity: number; // Float 0..1
+    radius: number | SupportedUnits;
+    offset?: TextShadowOffset | ComponentShadowOffset;
+    opacity?: number; // Float 0..1
 }

@@ -33,7 +33,7 @@ export interface TextComponent extends ComponentBase {
   format?: TextComponentFormat;
   text: string;
   additions?: LinkAddition[];
-  conditional?: ConditionalText[];
+  conditional?: ConditionalText | ConditionalText[];
   inlineTextStyles?: InlineTextStyle[];
   textStyle?: ComponentTextStyle | string;
 }
