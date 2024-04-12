@@ -1,6 +1,6 @@
 {
   "name": "apple-news-format",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Types for Apple News Format, including a small selection of string validation functions",
   "main": "lib",
   "files": [
