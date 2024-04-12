@@ -5,7 +5,7 @@ import { SupportedUnits } from "../src/primitives/supported-units";
 
 describe("SupportedUnits: Validation Lambda", () => {
 
-  it("Should return the valid string", (done: MochaDone) => {
+  it("Should return the valid string", (done: Mocha.Done) => {
 
     const validStrs: string[] = [
       "4vmin",
@@ -26,7 +26,7 @@ describe("SupportedUnits: Validation Lambda", () => {
     done();
   });
 
-  it("Should return undefined when passed an invalid string", (done: MochaDone) => {
+  it("Should return undefined when passed an invalid string", (done: Mocha.Done) => {
 
     const invalidStrs: string[] = [
       "55px",

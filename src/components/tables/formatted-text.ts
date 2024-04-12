@@ -17,9 +17,9 @@ export type FormattedTextFormat
  */
 export interface FormattedText {
   text: string;
-  type: "formatted_test";
+  type: "formatted_text";
   additions?: Addition[];
   format?: FormattedTextFormat;
-  inlineTextStyles: InlineTextStyle[];
-  textStyle: ComponentTextStyle | string;
+  inlineTextStyles?: InlineTextStyle[];
+  textStyle?: ComponentTextStyle | string;
 }

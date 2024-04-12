@@ -5,7 +5,7 @@ import { Color } from "../src/primitives/color";
 
 describe("Color: Validation Lambda", () => {
 
-  it("Should return the valid color string", (done: MochaDone) => {
+  it("Should return the valid color string", (done: Mocha.Done) => {
 
     const validStrs: string[] = [
       "#fff",
@@ -23,7 +23,7 @@ describe("Color: Validation Lambda", () => {
     done();
   });
 
-  it("Should return undefined when passed invalid string", (done: MochaDone) => {
+  it("Should return undefined when passed invalid string", (done: Mocha.Done) => {
 
     const invalidStrs: string[] = [
       "rgb(255,255,10)",

@@ -4,6 +4,7 @@ export { ConditionalTextStyle } from "./conditional-text-style";
 export { DropCapStyle } from "./drop-cap-style";
 export { InlineTextStyle } from "./inline-text-style";
 export { ListItemStyle } from "./list-item-style";
+export { TextShadow } from "./text-shadow"
 export { TextStrokeStyle } from "./text-stroke-style";
 export { TextStyle } from "./text-style";
 

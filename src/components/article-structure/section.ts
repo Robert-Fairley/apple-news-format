@@ -1,4 +1,4 @@
-import { Scene } from "../scene";
+import { Scene } from "../scenes/scene";
 import { ContainerComponent } from "./container-component";
 
 /**

@@ -5,7 +5,7 @@ import { HTMLTableData } from "../src/components/tables/html-table";
 
 describe("HTMLTableData: Validation Lambda", () => {
 
-  it("Should return the valid string", (done: MochaDone) => {
+  it("Should return the valid string", (done: Mocha.Done) => {
 
     const validStrs: string[] = [
       "<table><thead><tr><th>Col1</th><th>Col2</th></tr></thead><tbody><tr><td>data1</td><td>data2</td></tr></tbody></table>",
@@ -20,7 +20,7 @@ describe("HTMLTableData: Validation Lambda", () => {
     done();
   });
 
-  it("Should return undefined if passed an invalid string", (done: MochaDone) => {
+  it("Should return undefined if passed an invalid string", (done: Mocha.Done) => {
 
     const invalidStrs: string[] = [
       "<table>No closing tag",

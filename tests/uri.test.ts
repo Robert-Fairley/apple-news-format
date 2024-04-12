@@ -5,7 +5,7 @@ import { URI } from "../src/primitives/uri";
 
 describe("URI: Validation Lambda", () => {
 
-  it("Should return a valid string unchanged", (done: MochaDone) => {
+  it("Should return a valid string unchanged", (done: Mocha.Done) => {
 
     const validStrs: string[] = [
       "http://resource.site/image.jpg",
@@ -25,7 +25,7 @@ describe("URI: Validation Lambda", () => {
     done();
   });
 
-  it("Should return undefined when passed invalid string", (done: MochaDone) => {
+  it("Should return undefined when passed invalid string", (done: Mocha.Done) => {
 
     const invalidStrs: string[] = [
       "http://bad-resource.org/image.bmp",

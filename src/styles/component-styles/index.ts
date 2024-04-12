@@ -1,5 +1,6 @@
 export { Border } from "./border";
 export { ColorStop } from "./color-stop";
+export { ComponentShadow } from "./component-shadow"
 export { ComponentStyle } from "./component-style";
 export { ConditionalComponentStyle } from "./conditional-component-style";
 export { ConditionalTableCellStyle } from "./conditional-table-cell-style";

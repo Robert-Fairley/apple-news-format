@@ -26,12 +26,19 @@ export interface ArticleDocument {
     layout: Layout;
     title: string;
     version: string;
+    /**
+     * @deprecated
+     */
     autoplacement?: AutoPlacement;
     colorScheme?: ColorScheme;
     componentLayouts?: ComponentLayouts;
     componentStyles?: ComponentStyles;
     documentStyle?: DocumentStyle;
     metadata?: Metadata;
+     /**
+     * @deprecated
+     */
+    subtitle?: string;
     textFormat?: TextFormat;
     textStyles?: TextStyles;
 }
