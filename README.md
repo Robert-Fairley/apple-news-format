@@ -1,6 +1,5 @@
 # Apple News Format Types
-
-[![CircleCI](https://circleci.com/gh/Robert-Fairley/apple-news-format.svg?style=svg&circle-token=6f3e22cb14ceb409d7241efc628ccdef34b810f8)](https://circleci.com/gh/Robert-Fairley/apple-news-format)
+[![robert-fairley](https://circleci.com/gh/Robert-Fairley/apple-news-format.svg?style=svg)](https://app.circleci.com/pipelines/github/Robert-Fairley/apple-news-format)
 
 **Current to ANF version: `1.26.0`**
 
