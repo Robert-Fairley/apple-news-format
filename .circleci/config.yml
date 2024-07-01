@@ -1,24 +1,25 @@
 version: 2.1
-orbs: circleci/node@5.0.2
+orbs:
+  node: circleci/node@5.2.0
 jobs:
-  build_and_test:
-    executor: node/default
+  build-and-test:
+    docker:
+      - image: cimg/base:stable
     steps:
       - checkout
       - node/install-packages:
           pkg-manager: npm
       - run:
           command: npm run build
-          name: Build library
+          name: "Build library"
       - run:
           command: npm run test
-          name: Run tests
+          name: "Run tests"
       - persist_to_workspace:
           root: ~/project
           paths:
             - .
-
 workflows:
-  test_library:
+  run-tests:
     jobs:
-      - build_and_test
+      - build-and-test
