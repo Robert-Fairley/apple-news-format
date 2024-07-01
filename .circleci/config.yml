@@ -2,15 +2,30 @@ version: 2.1
 orbs:
   node: circleci/node@5.2.0
 jobs:
-  build-and-test:
+  build:
     docker:
-        - image: cimg/base:stable
+      - image: cimg/base:stable
     steps:
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - run:
+          command: |
+            set +e
+            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+            export NVM_DIR="/opt/circleci/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+          name: "Install NVM"
       - run:
           command: nvm install --lts && nvm use --lts
-      - node/install-packages:
-          pkg-manager: npm
+          name: "Setup Node"
+      - run:
+          command: node -
+          name: "Node version"
+  test:
+    docker:
+      - image: cimg/base:stable
+    steps:
       - run:
           command: npm run build
           name: "Build library"
@@ -24,4 +39,5 @@ jobs:
 workflows:
   run-tests:
     jobs:
-      - build-and-test
+      - build
+      - test
