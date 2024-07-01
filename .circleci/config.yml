@@ -37,6 +37,7 @@ jobs:
             export NVM_DIR="/opt/circleci/.nvm"
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+            nvm -v
           name: "Install NVM"
       - run:
           command: nvm install --lts && nvm use --lts
