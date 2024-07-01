@@ -31,8 +31,8 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run:
-        command: nvm install --lts && nvm use --lts
-        name: "Setup Node"
+          command: nvm install --lts && nvm use --lts
+          name: "Setup Node"
       - run:
           command: npm run test
           name: "Run tests"
