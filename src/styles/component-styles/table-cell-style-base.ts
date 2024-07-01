@@ -1,6 +1,7 @@
 import {
   Color,
   HorizontalAlignment,
+  Padding,
   SupportedUnits,
   VerticalAlignment,
 } from "../../primitives";
@@ -17,7 +18,7 @@ export interface TableCellStyleBase {
   height?: SupportedUnits | number; // Integer
   horizontalAlignment?: HorizontalAlignment;
   minimumWidth?: SupportedUnits | number; // Integer
-  padding?: SupportedUnits | number; // Integer
+  padding?: Padding | SupportedUnits | number; // Integer
   textStyle?: ComponentTextStyle;
   verticalAlignment?: VerticalAlignment;
   width?: number; // Integer
