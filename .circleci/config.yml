@@ -4,9 +4,11 @@ orbs:
 jobs:
   build-and-test:
     docker:
-      - image: cimg/base:stable
+        - image: cimg/base:stable
     steps:
       - checkout
+      - run:
+          command: nvm install --lts && nvm use --lts
       - node/install-packages:
           pkg-manager: npm
       - run:
