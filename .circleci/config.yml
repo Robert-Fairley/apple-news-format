@@ -21,15 +21,18 @@ jobs:
           command: nvm install --lts && nvm use --lts
           name: "Setup Node"
       - run:
-          command: node -
+          command: node -v
           name: "Node version"
+      - run:
+          command: npm run build
+          name: "Build library"
   test:
     docker:
       - image: cimg/base:stable
     steps:
       - run:
-          command: npm run build
-          name: "Build library"
+        command: nvm install --lts && nvm use --lts
+        name: "Setup Node"
       - run:
           command: npm run test
           name: "Run tests"
