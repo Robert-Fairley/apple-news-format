@@ -22,7 +22,7 @@ jobs:
     docker:
       - image: cimg/node:22.3.0
     steps:
-
+      - checkout
       - setup_remote_docker:
             docker_layer_caching: true
       - run:
