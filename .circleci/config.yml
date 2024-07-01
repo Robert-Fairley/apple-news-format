@@ -31,6 +31,14 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run:
+          command: |
+            set +e
+            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+            export NVM_DIR="/opt/circleci/.nvm"
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          name: "Install NVM"
+      - run:
           command: nvm install --lts && nvm use --lts
           name: "Setup Node"
       - run:
