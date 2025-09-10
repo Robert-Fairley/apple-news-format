@@ -28,6 +28,9 @@ export interface Metadata {
   keywords?: string[];
   links?: LinkedArticle[];
   thumbnailURL?: string; // ThumbnailURI
+  /**
+   * @deprecated
+   */
   transparentToolbar?: boolean;
   videoURL?: URI;
 }

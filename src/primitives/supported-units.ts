@@ -2,7 +2,7 @@
  * Expression of the string type for supported measurement units
  * @see https://developer.apple.com/documentation/apple_news/supportedunits
  */
-export type SupportedUnits = string;
+export type SupportedUnits = `${number}${"vw" | "vmin" | "vmax" | "vh" | "dg" | "dm" | "cw" | "gut" | "pt"}`;
 /**
  * Lambda for validating text used as `SupportedUnits` values. Returns undefined if
  * the string fails to validate.
