@@ -2,6 +2,11 @@
   "name": "apple-news-format",
   "version": "1.1.1",
   "description": "Types for Apple News Format, including a small selection of string validation functions",
+  "homepage": "https://github.com/Robert-Fairley/apple-news-format",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robert-Fairley/apple-news-format"
+  },
   "main": "lib",
   "files": [
     "lib"
