@@ -8,6 +8,7 @@ import { AdvertisementAutoPlacement as RootAdvertisementAutoPlacement } from "./
 import { ArticleDocument as RootArticleDocument } from "./article-document";
 import { AutoPlacement as RootAutoPlacement } from "./auto-placement";
 import { ConditionalAutoPlacement as RootConditionalAutoPlacement } from "./conditional-auto-placement";
+import { ColorScheme as RootColorScheme } from "./color-scheme";
 import { DocumentStyle as RootDocumentStyle, ConditionalDocumentStyle as RootConditionalDocumentStyle } from "./document-style";
 import { AnyComponent as RootAnyComponent } from "./components/any-component";
 
@@ -17,6 +18,7 @@ declare namespace AppleNews {
   export type ArticleDocument = RootArticleDocument;
   export type AutoPlacement = RootAutoPlacement;
   export type ConditionalAutoPlacement = RootConditionalAutoPlacement;
+  export type ColorScheme = RootColorScheme;
   export type DocumentStyle = RootDocumentStyle;
   export type ConditionalDocumentStyle = RootConditionalDocumentStyle;
   export type AnyComponent = RootAnyComponent;
@@ -50,12 +52,15 @@ declare namespace AppleNews {
   export type ConditionalContainer = Components.ArticleStructure.ConditionalContainer;
   export type Container = Components.ArticleStructure.Container;
   export type Divider = Components.ArticleStructure.Divider;
+  export type FlexibleSpacer = Components.ArticleStructure.FlexibleSpacer;
   export type Header = Components.ArticleStructure.Header;
   export type HorizontalStackDisplay = Components.ArticleStructure.HorizontalStackDisplay;
+  export type LinkButton = Components.ArticleStructure.LinkButton;
   export type Section = Components.ArticleStructure.Section;
   export type Audio = Components.AudioAndVideo.Audio;
   export type EmbedWebVideo = Components.AudioAndVideo.EmbedWebVideo;
   export type Music = Components.AudioAndVideo.Music;
+  export type Podcast = Components.AudioAndVideo.Podcast;
   export type Video = Components.AudioAndVideo.Video;
   export type ARKit = Components.AugmentedReality.ARKit;
   export type GalleryItem = Components.GalleriesAndMosaics.GalleryItem;
@@ -74,6 +79,8 @@ declare namespace AppleNews {
   export type Place = Components.Location.Place;
   export type Instagram = Components.SocialMedia.Instagram;
   export type FacebookPost = Components.SocialMedia.FacebookPost;
+  /** @deprecated Use FacebookPost. */
+  export type Facebook = FacebookPost;
   export type TikTok = Components.SocialMedia.TikTok;
   export type Tweet = Components.SocialMedia.Tweet;
   export type DataDescriptor = Components.Tables.DataDescriptor;
@@ -100,6 +107,7 @@ declare namespace AppleNews {
 
   // Metadata
   export type CampaignData = Metadata.CampaignData;
+  export type Issue = Metadata.Issue;
   export type LinkedArticle = Metadata.LinkedArticle;
   export type Metadata = Metadata.Metadata;
 
@@ -126,7 +134,9 @@ declare namespace AppleNews {
 
   // Styles
   export type Border = Styles.ComponentStyles.Border;
-  export type ColorStrop = Styles.ComponentStyles.ColorStop;
+  export type ColorStop = Styles.ComponentStyles.ColorStop;
+  /** @deprecated Use ColorStop. */
+  export type ColorStrop = ColorStop;
   export type ComponentShadow = Styles.ComponentStyles.ComponentShadow;
   export type ComponentStyle = Styles.ComponentStyles.ComponentStyle;
   export type ConditionalComponentStyle = Styles.ComponentStyles.ConditionalComponentStyle;
@@ -145,7 +155,7 @@ declare namespace AppleNews {
   export type TableRowSelector = Styles.ComponentStyles.TableRowSelector;
   export type TableRowStyle = Styles.ComponentStyles.TableRowStyle;
   export type TableStrokeStyle = Styles.ComponentStyles.TableStrokeStyle;
-  export type TableStyle = Styles.ComponentStyles.TableRowStyle;
+  export type TableStyle = Styles.ComponentStyles.TableStyle;
   export type VideoFill = Styles.ComponentStyles.VideoFill;
   export type ComponentTextStyle = Styles.TextStyles.ComponentTextStyle;
   export type ConditionalComponentTextStyle = Styles.TextStyles.ConditionalComponentTextStyle;
